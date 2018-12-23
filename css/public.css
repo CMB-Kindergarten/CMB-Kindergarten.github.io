@@ -1,4 +1,13 @@
-body{background:#e4f5ff url("pic/body_bg.jpg") center top no-repeat; height:1000px; margin:0; width:1436px; }
+/*body{background:#e4f5ff url("pic/body_bg.jpg") no-repeat; background-position:center top; height:1000px; margin:0; width:1436px; }*/
+body{margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-family: 宋体;
+    background-color:#e4f5ff;
+    z-index: 0;
+    background-image:url("pic/body_bg.jpg");
+    background-position:center top;
+    background-repeat:no-repeat;}
 p,h1,h2,h3,h4,h5,h6,li,ul{padding:0; margin:0; }
 li{list-style:none; }
 a{text-decoration:none; }
