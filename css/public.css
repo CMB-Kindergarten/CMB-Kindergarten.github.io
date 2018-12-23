@@ -13,6 +13,7 @@ img{vertical-align:top; }
 #top .banner .logo{padding:40px 0 0 80px; }
 #top .banner .logo .img{float:left; }
 #top .banner .logo .text{float:left; padding:30px 0 0 15px; }
+#top .banner .logo span:nth-child(1){color:purple; }
 #top .banner .logo span:nth-child(2){color:red; }
 #top .banner .logo span:nth-child(3){color:#ffcf00; }
 #top .banner .logo span:nth-child(4){color:blue; }
