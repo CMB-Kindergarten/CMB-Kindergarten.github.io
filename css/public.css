@@ -1,4 +1,4 @@
-body{background:#e4f5ff url("pic/body_bg.jpg") 8px 0 no-repeat; height:1000px; margin:0; }
+body{background:#e4f5ff url("pic/body_bg.jpg") 8px center no-repeat; height:1000px; margin:0; width:1436px; }
 p,h1,h2,h3,h4,h5,h6,li,ul{padding:0; margin:0; }
 li{list-style:none; }
 a{text-decoration:none; }
