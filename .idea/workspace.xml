@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="67313a7a-b665-4f41-91dc-1ce229d2e373" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pic/banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pic/banner6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/pic/body_bg.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/css/public.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/public.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -118,16 +121,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1545586449921</updated>
-      <workItem from="1545586451613" duration="1175000" />
+      <workItem from="1545586451613" duration="1360000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1175000" />
+    <option name="totallyTimeSpent" value="1360000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18393235" />
       <window_info anchor="bottom" id="TODO" order="6" />
