@@ -1,4 +1,4 @@
-body{background:#e4f5ff url("pic/body_bg.png") center top no-repeat; margin:0; }
+body{background:#e4f5ff url("pic/body_bg.jpg") center top no-repeat; margin:0; }
 p,h1,h2,h3,h4,h5,h6,li,ul{padding:0; margin:0; }
 li{list-style:none; }
 a{text-decoration:none; }
@@ -19,7 +19,42 @@ img{vertical-align:top; }
 #top .logo span:nth-child(4){color:blue; }
 
 
-.nav{height:50px; }
+.nav{height:50px; display:flex; justify-content:center; line-height:50px;}
+.nav li{margin:0 15px; }
+.nav a{font-size:22px; font-weight:bold; }
+.nav li:nth-child(1) a{color:#ff4c4c; }
+.nav li:nth-child(2) a{color:#ff9620; }
+.nav li:nth-child(3) a{color:#ffbd00; }
+.nav li:nth-child(4) a{color:#9bbf00; }
+.nav li:nth-child(5) a{color:#4fbabb; }
+.nav li:nth-child(6) a{color:#a87eef; }
+.nav li:nth-child(7) a{color:#ff618c; }
+
+
+
+
+#content{background:url("pic/center_bg.jpg"); height:1000px; }
+#remarks{width:281px; height:320px; background:url("pic/remarks.jpg"); }
+#remarks .content{width:240px; padding:15px 20px; }
+#remarks h2{color:#ff8100; }
+#remarks .top{}
+#remarks .top img{float:left; }
+#remarks .top ul{float:left; color:#ff7a00;}
+#remarks .bottom{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
