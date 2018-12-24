@@ -6,6 +6,8 @@
     <link href="css/public.css"  rel="stylesheet" />
     <link href="css/index.css"  rel="stylesheet" />
     <script src="js/index.js" ></script>
+    <script src="js/template.js" ></script>
+    <script src="js/data.js" ></script>
 </head>
 <body>
     <div id="center">
@@ -119,6 +121,44 @@
                         </ul>
                     </div>
                 </div>
+
+
+                <div id="news">
+                    <div class="news">
+                        <div></div>
+                        <script id="newsText" type="text/html">
+                            <p class="more"><a href="#">更多>></a></p>
+                            <ul>
+                                <%for(let i=0; i<4; i++){%>
+                                    <li class="li">
+                                        <a href="<%:=news[i].url%>"><%:=news[i].data%></a>
+                                        <span><%:=news[i].time%></span>
+                                    </li>
+                                <%}%>
+                            </ul>
+                        </script>
+                    </div>
+                    <div class="notice">
+                        <div></div>
+                        <script id="noticeText" type="text/html">
+                            <p class="more"><a href="#">更多>></a></p>
+                            <ul>
+                                <%for(let i = 0; i<4; i++){%>
+                                <li class="li">
+                                    <a href="<%:=notice[i].url%>"><%:=notice[i].data%></a>
+                                    <span><%:=notice[i].time%></span>
+                                </li>
+                                <%}%>
+                            </ul>
+                        </script>
+                    </div>
+                </div>
+
+
+
+
+
+
 
 
             </div>

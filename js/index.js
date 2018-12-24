@@ -40,6 +40,13 @@ window.onload = function(){
         };
     }
 
+    //模板引擎加入新闻和通知
+    let oNewsText = document.getElementById('newsText').innerHTML;
+    document.querySelector('#news .news>div').innerHTML = template(oNewsText, data);
+    let oNoticeText = document.getElementById('newsText').innerHTML;
+    document.querySelector('#news .notice>div').innerHTML = template(oNoticeText, data);
+
+
 
 
 
