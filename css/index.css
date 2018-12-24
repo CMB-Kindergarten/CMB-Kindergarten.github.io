@@ -28,12 +28,20 @@
 
 #prompt{height:308px; width:684px; background:url("pic/right_top1.jpg"); }
 #prompt .left{width:350px; border-right:1px solid #000; float:left; }
-#prompt .img{padding:50px 0 0 50px; position:relative; width:270px; }
-#prompt .pic{width:1350px; position:absolute; }
-#prompt .pic img{width:270px; float:left; }
-#prompt .right{float:right; width:280px; }
-#prompt .hint{height:70px; overflow:hidden; }
+#prompt .img{padding:50px 0 0 50px; position:relative; width:270px; height:220px; }
+#prompt .img > div{overflow:hidden; }
+#prompt .pic{width:1350px; position:relative; left:00px;  }
+#prompt .pic img{width:270px; float:left; height:220px; }
 
+#prompt .num{height:18px; position:absolute; bottom:0; background:rgba(0,0,0,0.4); width:270px; display:flex; justify-content:flex-end; }
+#prompt .num li{padding:0 10px; line-height:18px; color:#fff; cursor:pointer; border-right:1px solid rgba(255, 255, 255, 0.5); }
+#prompt .num li:hover{background:linear-gradient(to bottom, #ff0000, #7e0000); }
+
+#prompt .right{float:right; width:290px; }
+#prompt .hint{height:75px; overflow:hidden; padding:70px 40px 0 0; }
+#prompt .hint p{text-indent:2em; }
+#prompt .class{padding-top:54px; }
+#prompt .class li{background:url("pic/mashroom.png") 3px 3px no-repeat; line-height:26px; text-indent:35px; }
 
 
 
