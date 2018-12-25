@@ -29,11 +29,11 @@
 #prompt{height:308px; width:684px; background:url("pic/right_top1.jpg"); margin-top:3px; }
 #prompt .left{width:350px; float:left; }
 #prompt .img{padding:50px 0 0 50px; position:relative; width:270px; height:220px; }
-#prompt .img > div{overflow:hidden; }
-#prompt .pic{width:1350px; position:relative; left:0; transition:.5s linear;  }
-#prompt .pic img{width:270px; float:left; height:220px; }
+#prompt .img > div{overflow:hidden; height:220px; position:relative; }
+#prompt img{width:270px; height:220px; position:absolute; left:270px; }
+#prompt img:first-child{left:0; }
 
-#prompt .num{height:18px; position:absolute; bottom:0; background:rgba(0,0,0,0.4); width:270px; display:flex; justify-content:flex-end; }
+#prompt .num{height:18px; position:absolute; bottom:0; /*background:rgba(0,0,0,0.4);*/ background:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.6)); width:270px; display:flex; justify-content:flex-end; }
 #prompt .num li{padding:0 10px; line-height:18px; color:#fff; cursor:pointer; border-right:1px solid rgba(255, 255, 255, 0.5); }
 #prompt .num li:hover, #prompt .num .active{background:linear-gradient(to bottom, #ff0000, #7e0000); }
 
@@ -53,6 +53,7 @@
 #news .more a, #education .more a{color:#fff; font-size:12px; margin-right:10px; }
 #news .more a:hover, #education .more a:hover{text-decoration:underline; }
 #news ul, #education ul{padding-top:20px; font-size:12px; color:#949494; }
+#education ul{padding-top:15px; }
 #news li, #education li{display:flex; justify-content:space-between; padding:12px 0 0 25px; height:23px; background:url("pic/flower.gif") no-repeat 0 7px;  }
 #news li a, #education li a{color:#949494; width:180px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; line-height:12px; height:12px; display:block}
 #news li a:hover, #education li a:hover{color:#269bff; }
@@ -64,9 +65,12 @@
 #happyTime .more{height:16px; line-height:16px; text-align:right; padding:0 50px 20px 0; font-size:12px; }
 #happyTime .more a{color:#fff; }
 #happyTime .more a:hover{text-decoration:underline; }
-#happyTime .pic{padding-left:26px; height:195px; width:800px; overflow:hidden; padding-top:10px; }
-#happyTime .pic > div{width:1740px; }
-#happyTime .pic img{height:195px; float:left; width:260px; margin-right:10px; }
+#happyTime .pic{padding-left:26px; width:800px; overflow:hidden; padding-top:10px; }
+#happyTime .pic > div{position:relative; height:195px; }
+#happyTime .pic img{height:195px; float:left; width:260px; margin-right:10px; position:absolute; left:810px; }
+#happyTime .pic img:nth-child(1){left:0; }
+#happyTime .pic img:nth-child(2){left:270px; }
+#happyTime .pic img:nth-child(3){left:540px; }
 
 
 

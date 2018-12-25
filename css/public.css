@@ -34,7 +34,7 @@ img{vertical-align:top; }
 
 
 #footer{height:126px; padding-top:50px; }
-#footer .content{width:1000px; margin:0 auto; text-align:center; font-size:12px; }
+#footer .content{width:1000px; margin:0 auto; text-align:center; font-size:12px; line-height:20px; }
 #footer p:first-child{font-weight:bold; font-size:18px; }
 
 
