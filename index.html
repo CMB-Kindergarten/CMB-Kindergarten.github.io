@@ -75,11 +75,11 @@
                         <div class="img">
                             <div>
                                 <div class="pic clear">
-                                    <img src="img/photo.png" alt="园所照片1" />
-                                    <img src="img/photo.png" alt="园所照片2" />
-                                    <img src="img/photo.png" alt="园所照片3" />
-                                    <img src="img/photo.png" alt="园所照片4" />
-                                    <img src="img/photo.png" alt="园所照片5" />
+                                    <img src="img/photo.jpg" alt="园所照片1" />
+                                    <img src="img/photo.jpg" alt="园所照片2" />
+                                    <img src="img/photo.jpg" alt="园所照片3" />
+                                    <img src="img/photo.jpg" alt="园所照片4" />
+                                    <img src="img/photo.jpg" alt="园所照片5" />
                                 </div>
                             </div>
                             <ul class="num">
@@ -149,12 +149,12 @@
                 <p class="more"><a href="#">更多>></a></p>
                 <div class="pic">
                     <div>
-                        <img src="img/photo.png" />
-                        <img src="img/photo.png" />
-                        <img src="img/photo.png" />
-                        <img src="img/photo.png" />
-                        <img src="img/photo.png" />
-                        <img src="img/photo.png" />
+                        <img src="img/photo.jpg" />
+                        <img src="img/photo.jpg" />
+                        <img src="img/photo.jpg" />
+                        <img src="img/photo.jpg" />
+                        <img src="img/photo.jpg" />
+                        <img src="img/photo.jpg" />
                     </div>
                 </div>
             </div>
@@ -163,8 +163,8 @@
 
         <div id="contentbBttom" class="clear">
             <div class="code">
-                <span>扫一扫关注我们</span>
                 <img src="img/contactCode.jpg" />
+                <p><!--扫一扫，关注我们--></p>
             </div>
 
             <div id="education" class="clear">
@@ -174,10 +174,10 @@
                         <p class="more"><a href="#">更多>></a></p>
                         <ul>
                             <%for(let i=0; i<4; i++){%>
-                            <li class="li">
-                                <a href="<%:=education[i].url%>"><%:=education[i].data%></a>
-                                <span><%:=education[i].time%></span>
-                            </li>
+                                <li class="li">
+                                    <a href="<%:=education[i].url%>"><%:=education[i].data%></a>
+                                    <span><%:=education[i].time%></span>
+                                </li>
                             <%}%>
                         </ul>
                     </script>
@@ -188,10 +188,10 @@
                         <p class="more"><a href="#">更多>></a></p>
                         <ul>
                             <%for(let i = 0; i<4; i++){%>
-                            <li class="li">
-                                <a href="<%:=care[i].url%>"><%:=care[i].data%></a>
-                                <span><%:=care[i].time%></span>
-                            </li>
+                                <li class="li">
+                                    <a href="<%:=care[i].url%>"><%:=care[i].data%></a>
+                                    <span><%:=care[i].time%></span>
+                                </li>
                             <%}%>
                         </ul>
                     </script>
@@ -209,7 +209,14 @@
 
 
     <div id="footer">
-
+        <div class="content">
+            <!--<img src="img/logo.png" />-->
+            <p>哈尔滨聪明堡幼儿园</p>
+            <p>电话：18946110350</p>
+            <p>地址：哈尔滨市哈尔滨市哈尔滨市哈尔滨市</p>
+            <p>家长信箱:123456789@abc.com</p>
+            <p>作者&维护支持：王卓然</p>
+        </div>
     </div>
 </body>
 </html>

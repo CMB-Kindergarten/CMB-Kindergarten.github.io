@@ -47,18 +47,16 @@
 
 
 #news{width:682px; height:249px; padding-top:36px; background:url("pic/news.jpg") no-repeat; margin-top:22px; }
-#news .news{float:left; width:272px; padding-left:30px; }
-#news .notice{float:right; width:272px; padding-right:30px; }
-#news .more{text-align:right; }
-#news .more a{color:#fff; font-size:12px; margin-right:10px; }
-#news .more a:hover{text-decoration:underline; }
-#news ul{padding-top:20px; font-size:12px; color:#949494; }
-#news li{display:flex; justify-content:space-between; padding:12px 0 0 25px; height:23px; background:url("pic/flower.gif") no-repeat 0 5px;  }
-#news li a{color:#949494; width:180px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; line-height:12px; height:12px; display:block}
-#news li a:hover{color:#269bff; }
-#news span{width:70px; text-align:right; }
-
-
+#news .news, #education .education{float:left; width:272px; padding-left:30px; }
+#news .notice, #education .care{float:right; width:272px; padding-right:30px; }
+#news .more, #education .more{text-align:right; }
+#news .more a, #education .more a{color:#fff; font-size:12px; margin-right:10px; }
+#news .more a:hover, #education .more a:hover{text-decoration:underline; }
+#news ul, #education ul{padding-top:20px; font-size:12px; color:#949494; }
+#news li, #education li{display:flex; justify-content:space-between; padding:12px 0 0 25px; height:23px; background:url("pic/flower.gif") no-repeat 0 7px;  }
+#news li a, #education li a{color:#949494; width:180px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; line-height:12px; height:12px; display:block}
+#news li a:hover, #education li a:hover{color:#269bff; }
+#news span, #education span{width:70px; text-align:right; }
 
 
 #happyTime{background:url("pic/center_bg.jpg"); padding-bottom:10px; }
@@ -66,27 +64,18 @@
 #happyTime .more{height:16px; line-height:16px; text-align:right; padding:0 50px 20px 0; font-size:12px; }
 #happyTime .more a{color:#fff; }
 #happyTime .more a:hover{text-decoration:underline; }
-#happyTime .pic{padding-left:26px; height:210px; width:800px; overflow:hidden; }
+#happyTime .pic{padding-left:26px; height:195px; width:800px; overflow:hidden; padding-top:10px; }
 #happyTime .pic > div{width:1740px; }
-#happyTime .pic img{height:210px; float:left; width:280px; margin-right:10px; }
+#happyTime .pic img{height:195px; float:left; width:260px; margin-right:10px; }
 
 
 
 #contentbBttom{background:url("pic/center_bg.jpg"); }
-#contentbBttom .code{float:left; width:318px; height:225px; background:url("pic/code_bg.jpg") no-repeat bottom; }
-#contentbBttom .code span{height:30px; padding:50px 30px 0 20px;  display:inline-block; }
+#contentbBttom .code{float:left; width:318px; padding-top:15px; height:210px; background:url("pic/code_bg.jpg") no-repeat bottom; text-align:center;}
+#contentbBttom .code img{height:90px; }
+#contentbBttom .code p{height:30px; line-height:30px; }
 #education{float:right; height:187px; width:681px; background:url("pic/education.jpg") no-repeat; padding-top:38px; }
-/*左下角的树对不上*/
-#education .education{float:left; width:272px; padding-left:30px; }
-#education .care{float:right; width:272px; padding-right:30px; }
-#education .more{text-align:right; }
-#education .more a{color:#fff; font-size:12px; margin-right:10px; }
-#education .more a:hover{text-decoration:underline; }
-#education ul{padding-top:20px; font-size:12px; color:#949494; }
-#education li{display:flex; justify-content:space-between; padding:12px 0 0 25px; height:23px; background:url("pic/flower.gif") no-repeat 0 5px;  }
-#education li a{color:#949494; width:180px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; line-height:12px; height:12px; display:block}
-#education li a:hover{color:#269bff; }
-#education span{width:70px; text-align:right; }
+
 
 
 

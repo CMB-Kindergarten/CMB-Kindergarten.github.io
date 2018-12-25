@@ -1,5 +1,5 @@
 html{width:100%; }
-body{background:#e4f5ff url("pic/body_bg.jpg") center top no-repeat; margin:0; width:100%; }
+body{background:#ecf7d7 url("pic/body_bg.jpg") center top no-repeat; margin:0; width:100%; }
 p,h1,h2,h3,h4,h5,h6,li,ul{padding:0; margin:0; }
 li{list-style:none; }
 a{text-decoration:none; }
@@ -33,7 +33,9 @@ img{vertical-align:top; }
 
 
 
-#footer{height:176px;/* background:url("pic/footer.jpg") center top no-repeat; */}
+#footer{height:126px; padding-top:50px; }
+#footer .content{width:1000px; margin:0 auto; text-align:center; font-size:12px; }
+#footer p:first-child{font-weight:bold; font-size:18px; }
 
 
 
