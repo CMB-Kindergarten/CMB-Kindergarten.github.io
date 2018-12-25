@@ -48,7 +48,7 @@
 
 #news{width:682px; height:249px; padding-top:36px; background:url("pic/news.jpg") no-repeat; margin-top:22px; }
 #news .news{float:left; width:272px; padding-left:30px; }
-#news .notice{float:right; width:272px; padding-right:26px; }
+#news .notice{float:right; width:272px; padding-right:30px; }
 #news .more{text-align:right; }
 #news .more a{color:#fff; font-size:12px; margin-right:10px; }
 #news .more a:hover{text-decoration:underline; }
@@ -56,10 +56,12 @@
 #news li{display:flex; justify-content:space-between; padding:12px 0 0 25px; height:23px; background:url("pic/flower.gif") no-repeat 0 5px;  }
 #news li a{color:#949494; width:180px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; line-height:12px; height:12px; display:block}
 #news li a:hover{color:#269bff; }
-#news span{width:70px; }
+#news span{width:70px; text-align:right; }
 
 
-#happyTime{background:url("pic/center_bg.jpg"); }
+
+
+#happyTime{background:url("pic/center_bg.jpg"); padding-bottom:10px; }
 #happyTime .content{width:980px; height:266px; background:url("pic/happyTime.jpg") no-repeat; margin:0 auto; padding-top:34px; }
 #happyTime .more{height:16px; line-height:16px; text-align:right; padding:0 50px 20px 0; font-size:12px; }
 #happyTime .more a{color:#fff; }
@@ -70,9 +72,22 @@
 
 
 
+#contentbBttom{background:url("pic/center_bg.jpg"); }
+#contentbBttom .code{float:left; width:280px; }
+#education{float:right; height:187px; width:681px; background:url("pic/education.jpg") no-repeat; padding-top:38px; }
 
 
 
+#education .education{float:left; width:272px; padding-left:30px; }
+#education .care{float:right; width:272px; padding-right:30px; }
+#education .more{text-align:right; }
+#education .more a{color:#fff; font-size:12px; margin-right:10px; }
+#education .more a:hover{text-decoration:underline; }
+#education ul{padding-top:20px; font-size:12px; color:#949494; }
+#education li{display:flex; justify-content:space-between; padding:12px 0 0 25px; height:23px; background:url("pic/flower.gif") no-repeat 0 5px;  }
+#education li a{color:#949494; width:180px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; line-height:12px; height:12px; display:block}
+#education li a:hover{color:#269bff; }
+#education span{width:70px; text-align:right; }
 
 
 
