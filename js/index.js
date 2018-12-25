@@ -18,8 +18,8 @@ function moveTopImg(){
     let aImg = oPicWrap.getElementsByTagName('img');
     let aNum1 = oPrompt.getElementsByClassName('num')[0].getElementsByTagName('li');
 
-    let timer = setInterval(nextPic, 2000);
-    mouseOverClearTimer(oPicWrap, timer, nextPic, 2000);
+    let timer = setInterval(nextPic, 2500);
+    mouseOverClearTimer(oPicWrap, timer, nextPic, 25gi00);
 
     oPicWrap.now = 0;               //记录显示区域中图片下标
     function nextPic(){                         //自动轮播
@@ -28,12 +28,12 @@ function moveTopImg(){
         }
         if(oPicWrap.now === aImg.length-1){
             aNum1[0].className = 'active';
-            doMove(aImg[0], 'left', 10, 0);
+            doMove(aImg[0], 'left', 6, 0);
         }else{
             aNum1[oPicWrap.now+1].className = 'active';
-            doMove(aImg[oPicWrap.now+1], 'left', 10, 0);
+            doMove(aImg[oPicWrap.now+1], 'left', 6, 0);
         }
-        doMove(aImg[oPicWrap.now], 'left', 10, -270, function(){
+        doMove(aImg[oPicWrap.now], 'left', 6, -270, function(){
             aImg[oPicWrap.now].style.left = 270 + 'px';
             oPicWrap.now++;
             oPicWrap.now %= aImg.length;
@@ -48,13 +48,13 @@ function moveTopImg(){
             aNum1[i].className = 'active';
             if(i<oPicWrap.now){
                 aImg[i].style.left = -270 + 'px';
-                doMove(aImg[i], 'left', 10, 0);
-                doMove(aImg[oPicWrap.now], 'left', 10, 270, function(){
+                doMove(aImg[i], 'left', 6, 0);
+                doMove(aImg[oPicWrap.now], 'left', 6, 270, function(){
                     oPicWrap.now = i;
                 })
             }else if(i>oPicWrap.now){
-                doMove(aImg[oPicWrap.now], 'left', 10, -270);
-                doMove(aImg[i], 'left', 10, 0, function(){
+                doMove(aImg[oPicWrap.now], 'left', 6, -270);
+                doMove(aImg[i], 'left', 6, 0, function(){
                     aImg[oPicWrap.now].style.left = 270 + 'px';
                     oPicWrap.now = i;
                 })
@@ -98,25 +98,25 @@ function moveHappyTimeImg(){
 
     function nextPic(){
         if(picWrap.now === aImg.length-3){
-            doMove(aImg[picWrap.now], 'left', 10, -270);
-            doMove(aImg[picWrap.now+1], 'left', 10, 0);
-            doMove(aImg[picWrap.now+2], 'left', 10, 270);
-            doMove(aImg[0], 'left', 10, 540, endFn);
+            doMove(aImg[picWrap.now], 'left', 6, -270);
+            doMove(aImg[picWrap.now+1], 'left', 6, 0);
+            doMove(aImg[picWrap.now+2], 'left', 6, 270);
+            doMove(aImg[0], 'left', 6, 540, endFn);
         }else if(picWrap.now === aImg.length-2){
-            doMove(aImg[picWrap.now], 'left', 10, -270);
-            doMove(aImg[picWrap.now+1], 'left', 10, 0);
-            doMove(aImg[0], 'left', 10, 270);
-            doMove(aImg[1], 'left', 10, 540, endFn);
+            doMove(aImg[picWrap.now], 'left', 6, -270);
+            doMove(aImg[picWrap.now+1], 'left', 6, 0);
+            doMove(aImg[0], 'left', 6, 270);
+            doMove(aImg[1], 'left', 6, 540, endFn);
         }else if(picWrap.now === aImg.length-1){
-            doMove(aImg[picWrap.now], 'left', 10, -270);
-            doMove(aImg[0], 'left', 10, 0);
-            doMove(aImg[1], 'left', 10, 270);
-            doMove(aImg[2], 'left', 10, 540, endFn);
+            doMove(aImg[picWrap.now], 'left', 6, -270);
+            doMove(aImg[0], 'left', 6, 0);
+            doMove(aImg[1], 'left', 6, 270);
+            doMove(aImg[2], 'left', 6, 540, endFn);
         }else{
-            doMove(aImg[picWrap.now], 'left', 10, -270);
-            doMove(aImg[picWrap.now+1], 'left', 10, 0);
-            doMove(aImg[picWrap.now+2], 'left', 10, 270);
-            doMove(aImg[picWrap.now+3], 'left', 10, 540, endFn);
+            doMove(aImg[picWrap.now], 'left', 6, -270);
+            doMove(aImg[picWrap.now+1], 'left', 6, 0);
+            doMove(aImg[picWrap.now+2], 'left', 6, 270);
+            doMove(aImg[picWrap.now+3], 'left', 6, 540, endFn);
         }
         function endFn(){
             aImg[picWrap.now].style.left = 810 + 'px';
@@ -127,28 +127,28 @@ function moveHappyTimeImg(){
     function prevPic(){
         if(picWrap.now === 0){
             aImg[aImg.length-1].style.left = -270 + 'px';
-            doMove(aImg[aImg.length-1], 'left', 10, 0);
-            doMove(aImg[picWrap.now], 'left', 10, 270);
-            doMove(aImg[picWrap.now+1], 'left', 10, 540);
-            doMove(aImg[picWrap.now+2], 'left', 10, 810, endFn);
+            doMove(aImg[aImg.length-1], 'left', 6, 0);
+            doMove(aImg[picWrap.now], 'left', 6, 270);
+            doMove(aImg[picWrap.now+1], 'left', 6, 540);
+            doMove(aImg[picWrap.now+2], 'left', 6, 810, endFn);
         }else if(picWrap.now === aImg.length-1){
             aImg[picWrap.now-1].style.left = -270 + 'px';
-            doMove(aImg[picWrap.now-1], 'left', 10, 0);
-            doMove(aImg[picWrap.now], 'left', 10, 270);
-            doMove(aImg[0], 'left', 10, 540);
-            doMove(aImg[1], 'left', 10, 810, endFn);
+            doMove(aImg[picWrap.now-1], 'left', 6, 0);
+            doMove(aImg[picWrap.now], 'left', 6, 270);
+            doMove(aImg[0], 'left', 6, 540);
+            doMove(aImg[1], 'left', 6, 810, endFn);
         }else if(picWrap.now === aImg.length-2){
             aImg[picWrap.now-1].style.left = -270 + 'px';
-            doMove(aImg[picWrap.now-1], 'left', 10, 0);
-            doMove(aImg[picWrap.now], 'left', 10, 270);
-            doMove(aImg[picWrap.now+1], 'left', 10, 540);
-            doMove(aImg[0], 'left', 10, 810, endFn);
+            doMove(aImg[picWrap.now-1], 'left', 6, 0);
+            doMove(aImg[picWrap.now], 'left', 6, 270);
+            doMove(aImg[picWrap.now+1], 'left', 6, 540);
+            doMove(aImg[0], 'left', 6, 810, endFn);
         }else{
             aImg[picWrap.now-1].style.left = -270 + 'px';
-            doMove(aImg[picWrap.now-1], 'left', 10, 0);
-            doMove(aImg[picWrap.now], 'left', 10, 270);
-            doMove(aImg[picWrap.now+1], 'left', 10, 540);
-            doMove(aImg[picWrap.now+2], 'left', 10, 810, endFn);
+            doMove(aImg[picWrap.now-1], 'left', 6, 0);
+            doMove(aImg[picWrap.now], 'left', 6, 270);
+            doMove(aImg[picWrap.now+1], 'left', 6, 540);
+            doMove(aImg[picWrap.now+2], 'left', 6, 810, endFn);
         }
         function endFn(){
             picWrap.now--;
@@ -187,5 +187,5 @@ function doMove ( obj, attr, dir, target, endFn ){
             clearInterval( obj.timer );
             endFn && endFn();
         }
-    }, 20);
+    }, 14);
 }
