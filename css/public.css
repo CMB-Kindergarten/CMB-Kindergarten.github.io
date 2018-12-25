@@ -6,7 +6,7 @@ img{vertical-align:top; }
 .clear{zoom:1; }
 .clear:after{content: ''; display: block; clear:both; }
 
-#center{width:1000px; height:1500px; margin:0 auto; }
+#center{width:1000px; margin:0 auto; }
 
 #top .banner{height:190px; }
 #top .logo{padding:40px 0 0 80px; }
@@ -32,7 +32,7 @@ img{vertical-align:top; }
 
 
 
-
+#footer{height:176px; background:url("pic/footer.jpg") center top no-repeat; }
 
 
 
