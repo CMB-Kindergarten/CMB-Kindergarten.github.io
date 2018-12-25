@@ -10,6 +10,10 @@ window.onload = function(){
     for(let i=0,len=aNum1.length; i<len; i++){      //图片导航按钮
         aNum1[i].onclick = function(){
             oPic1.index = i;
+            for(let i=0, len=aNum1.length; i<len; i++){ //定义active
+                aNum1[i].className = '';
+            }
+            aNum1[oPic1.index].className = 'active';
             oPic1.style.left = -oPic1.index*270 + 'px';
         }
     }
@@ -21,6 +25,10 @@ window.onload = function(){
     function timerPic(){                            //移动图片
         oPic1.index++;
         oPic1.index %= aNum1.length;
+        for(let i=0, len=aNum1.length; i<len; i++){ //定义active
+            aNum1[i].className = '';
+        }
+        aNum1[oPic1.index].className = 'active';
         oPic1.style.left = -oPic1.index*270 + 'px';
     }
     function moveText(){                            //移动文字
@@ -30,7 +38,7 @@ window.onload = function(){
         }
         oHintText.style.top = oHintText.top + 'px';
     }
-    function clearTimer(obj, timer, fn, times){     //移入清除定时器
+    function clearTimer(obj, timer, fn, times){     //鼠标移入清除定时器
         obj.onmouseover = function(){
             clearInterval(timer);
         };
@@ -41,11 +49,12 @@ window.onload = function(){
     }
 
     //模板引擎加入新闻和通知
-    let oNewsText = document.getElementById('newsText').innerHTML;
-    document.querySelector('#news .news>div').innerHTML = template(oNewsText, data);
-    let oNoticeText = document.getElementById('newsText').innerHTML;
-    document.querySelector('#news .notice>div').innerHTML = template(oNoticeText, data);
-
+    renderText(document.querySelector('#news .news>div'), 'newsText', data);
+    renderText(document.querySelector('#news .notice>div'), 'noticeText', data);
+    function renderText(templateWrap, templateTextId, data){
+        let templateText = document.getElementById(templateTextId).innerHTML;
+        templateWrap.innerHTML = template(templateText, data);
+    }
 
 
 
