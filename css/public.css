@@ -1,4 +1,5 @@
-body{background:#e4f5ff url("pic/body_bg.jpg") center top no-repeat; margin:0; }
+html{width:100%; }
+body{background:#e4f5ff url("pic/body_bg.jpg") center top no-repeat; margin:0; width:100%; }
 p,h1,h2,h3,h4,h5,h6,li,ul{padding:0; margin:0; }
 li{list-style:none; }
 a{text-decoration:none; }
@@ -32,7 +33,7 @@ img{vertical-align:top; }
 
 
 
-#footer{height:176px; background:url("pic/footer.jpg") center top no-repeat; width:1000px; }
+#footer{height:176px;/* background:url("pic/footer.jpg") center top no-repeat; */}
 
 
 
