@@ -1,4 +1,9 @@
-window.onload = function(){
+
+
+addEvent(window, 'load', window_onLoad);
+
+
+function window_onLoad(){
     let oPrompt = document.getElementById('prompt');
     let oPic1 = oPrompt.getElementsByClassName('pic')[0];
     let oPicWrap = oPrompt.getElementsByClassName('img')[0];
@@ -48,16 +53,6 @@ window.onload = function(){
         };
     }
 
-    //模板引擎加入新闻和通知
-    renderText(document.querySelector('#news .news>div'), 'newsText', data);
-    renderText(document.querySelector('#news .notice>div'), 'noticeText', data);
-    function renderText(templateWrap, templateTextId, data){
-        let templateText = document.getElementById(templateTextId).innerHTML;
-        templateWrap.innerHTML = template(templateText, data);
-    }
 
 
-
-
-
-};
+}
