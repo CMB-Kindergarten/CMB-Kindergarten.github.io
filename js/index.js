@@ -19,7 +19,7 @@ function moveTopImg(){
     let aNum1 = oPrompt.getElementsByClassName('num')[0].getElementsByTagName('li');
 
     let timer = setInterval(nextPic, 2500);
-    mouseOverClearTimer(oPicWrap, timer, nextPic, 25gi00);
+    mouseOverClearTimer(oPicWrap, timer, nextPic, 2500);
 
     oPicWrap.now = 0;               //记录显示区域中图片下标
     function nextPic(){                         //自动轮播
