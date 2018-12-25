@@ -8,6 +8,7 @@
     <script src="js/index.js" ></script>
     <script src="js/template.js" ></script>
     <script src="js/data.js" ></script>
+    <!--<script src="js/render.js" ></script>-->
 </head>
 <body>
     <div id="center">
@@ -25,7 +26,6 @@
                     </h1>
                 </div>
             </div>
-
             <ul class="nav">
                 <li><a href="./index.html">网站首页</a></li>
                 <li><a href="#">园所介绍</a></li>
@@ -38,13 +38,8 @@
         </div>
 
 
-
-        <div id="content" class="clear">
-
-
-
+        <div id="contentTop" class="clear">
             <div class="left">
-
                 <div id="remarks">
                     <div class="content">
                         <h2>园长寄语</h2>
@@ -72,17 +67,11 @@
                         <li><a href="#">园长信箱</a></li>
                     </ul>
                 </div>
-
             </div>
-
-
-
-
             <div class="right">
-
                 <div id="prompt" class="clear">
                     <div class="left clear">
-                        <div class="img"><!--264*220-->
+                        <div class="img">
                             <div>
                                 <div class="pic clear">
                                     <img src="img/photo.png" alt="园所照片1" />
@@ -101,7 +90,6 @@
                             </ul>
                         </div>
                     </div>
-
                     <div class="right">
                         <div class="hint">
                             <div>
@@ -121,8 +109,6 @@
                         </ul>
                     </div>
                 </div>
-
-
                 <div id="news" class="clear">
                     <div class="news">
                         <div></div>
@@ -153,23 +139,82 @@
                         </script>
                     </div>
                 </div>
+            </div>
+        </div>
 
 
+        <div id="happyTime">
+            <div class="content">
+                <p class="more"><a href="#">更多>></a></p>
+                <div class="pic">
+                    <div>
+                        <img src="img/photo.png" />
+                        <img src="img/photo.png" />
+                        <img src="img/photo.png" />
+                        <img src="img/photo.png" />
+                        <img src="img/photo.png" />
+                        <img src="img/photo.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
 
 
-
-
-
-
+        <div id="contentbBttom">
+            <div class="code">
+                <p>扫一扫关注我们</p>
+                <img src="img/contactCode.jpg" />
             </div>
 
 
+
+
+            <div id="education" class="clear">
+                <div class="education">
+                    <div></div>
+                    <script id="educationText" type="text/html">
+                        <p class="more"><a href="#">更多>></a></p>
+                        <ul>
+                            <%for(let i=0; i<4; i++){%>
+                            <li class="li">
+                                <a href="<%:=education[i].url%>"><%:=education[i].data%></a>
+                                <span><%:=education[i].time%></span>
+                            </li>
+                            <%}%>
+                        </ul>
+                    </script>
+                </div>
+                <div class="care">
+                    <div></div>
+                    <script id="careText" type="text/html">
+                        <p class="more"><a href="#">更多>></a></p>
+                        <ul>
+                            <%for(let i = 0; i<4; i++){%>
+                            <li class="li">
+                                <a href="<%:=care[i].url%>"><%:=care[i].data%></a>
+                                <span><%:=care[i].time%></span>
+                            </li>
+                            <%}%>
+                        </ul>
+                    </script>
+                </div>
+            </div>
 
 
 
 
         </div>
 
+
     </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
+

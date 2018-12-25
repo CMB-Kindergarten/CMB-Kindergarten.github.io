@@ -1,6 +1,6 @@
-#content{background:url("pic/center_bg.jpg"); height:1000px; padding-top:10px; padding-left:10px; }
-#content > .left{width:300px; border-right:1px solid #000; float:left; }
-#content > .right{width:688px; border-left:1px solid #000; float:right; }
+#contentTop{background:url("pic/center_bg.jpg"); padding:10px 0; padding-left:10px; }
+#contentTop > .left{width:300px; /*border-right:1px solid #000;*/ float:left; }
+#contentTop > .right{width:688px; /*border-left:1px solid #000;*/ float:right; }
 
 
 
@@ -59,7 +59,14 @@
 #news span{width:70px; }
 
 
-
+#happyTime{background:url("pic/center_bg.jpg"); }
+#happyTime .content{width:980px; height:266px; background:url("pic/happyTime.jpg") no-repeat; margin:0 auto; padding-top:34px; }
+#happyTime .more{height:16px; line-height:16px; text-align:right; padding:0 50px 20px 0; font-size:12px; }
+#happyTime .more a{color:#fff; }
+#happyTime .more a:hover{text-decoration:underline; }
+#happyTime .pic{padding-left:26px; height:210px; width:800px; overflow:hidden; }
+#happyTime .pic > div{width:1740px; }
+#happyTime .pic img{height:210px; float:left; width:280px; margin-right:10px; }
 
 
 
