@@ -65,12 +65,15 @@
 #happyTime .more{height:16px; line-height:16px; text-align:right; padding:0 50px 20px 0; font-size:12px; }
 #happyTime .more a{color:#fff; }
 #happyTime .more a:hover{text-decoration:underline; }
-#happyTime .pic{padding-left:26px; width:800px; overflow:hidden; padding-top:10px; }
-#happyTime .pic > div{position:relative; height:195px; }
-#happyTime .pic img{height:195px; float:left; width:260px; margin-right:10px; position:absolute; left:810px; }
-#happyTime .pic img:nth-child(1){left:0; }
-#happyTime .pic img:nth-child(2){left:270px; }
-#happyTime .pic img:nth-child(3){left:540px; }
+#happyTime .pic{padding-left:26px; width:800px; padding-top:10px; }
+#happyTime .contentPic{position:relative; height:195px; overflow:hidden; }
+#happyTime .contentPic img{height:195px; float:left; width:260px; margin-right:10px; position:absolute; left:810px; }
+#happyTime .contentPic img:nth-child(1){left:0; }
+#happyTime .contentPic img:nth-child(2){left:270px; }
+#happyTime .contentPic img:nth-child(3){left:540px; }
+#happyTime .contentPic a{position:absolute; width:20px; height:100%; display:block; background:rgba(0,0,0,0.5); right:0; }
+#happyTime .contentPic .prev{left:0; }
+#happyTime .contentPic .next{right:0; }
 
 
 
