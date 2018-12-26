@@ -1,0 +1,4 @@
+#content{height:1112px; background:url("body_top.png") center top no-repeat,url("body_bottom.png") center bottom no-repeat; padding:26px 0; margin-top:10px; }
+#content > div{background:url("body_middle.png") center repeat-y; height:100%; }
+#content .title{padding:50px 100px 0; }
+#content .title .content{padding:20px 0 0 85px; height:100px; background:url("title.jpg") no-repeat; color:#5cd17e; font-size:20px; line-height:36px; }
