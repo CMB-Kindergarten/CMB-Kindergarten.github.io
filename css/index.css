@@ -3,7 +3,6 @@
 #contentTop > .right{width:688px; /*border-left:1px solid #000;*/ float:right; }
 
 
-
 #remarks{width:281px; height:320px; background:url("pic/remarks.jpg"); }
 #remarks .content{width:240px; padding:15px 20px; }
 #remarks h2{color:#ff8100; }
@@ -13,7 +12,6 @@
 #remarks .bottom{height:129px; background:url("pic/remarks_bottom_bg.jpg"); padding:40px 0 0 24px; line-height:24px; }
 
 
-
 #nav_left{height:275px; padding-top:10px; background:url("pic/nav_left.jpg"); width:281px; margin-top:14px; }
 #nav_left li{height:65px; line-height:65px; padding-left:120px; }
 #nav_left a{font-size:28px; font-weight:bold; }
@@ -21,7 +19,6 @@
 #nav_left li:nth-child(2) a{color:#9dc200; text-shadow:2px 2px 3px  #9dc200;}
 #nav_left li:nth-child(3) a{color:#ffc200; text-shadow:2px 2px 3px  #ffc200;}
 #nav_left li:nth-child(4) a{color:#ff3c36; text-shadow:2px 2px 3px  #ff3c36;}
-
 
 
 #prompt{height:308px; width:684px; background:url("pic/right_top1.jpg"); margin-top:3px; }
