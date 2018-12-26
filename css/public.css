@@ -34,8 +34,10 @@ img{vertical-align:top; }
 
 
 #footer{height:126px; padding-top:50px; }
-#footer .content{width:1000px; margin:0 auto; text-align:center; font-size:12px; line-height:20px; }
-#footer p:first-child{font-weight:bold; font-size:18px; }
+#footer .content{width:1000px; margin:0 auto; }
+#footer .text{padding-left:200px; text-align:left; font-size:12px; line-height:20px; float:left; }
+#footer p:first-child{font-weight:bold; font-size:18px; line-height:30px; }
+#footer img{float:right; padding:10px 250px 0 0; opacity:0.8; }
 
 
 
