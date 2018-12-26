@@ -30,7 +30,7 @@
 #prompt .left{width:350px; float:left; }
 #prompt .img{padding:50px 0 0 50px; position:relative; width:270px; height:220px; }
 #prompt .img > div{overflow:hidden; height:220px; position:relative; }
-#prompt img{width:270px; height:220px; position:absolute; left:270px; }
+#prompt img{width:270px; height:220px; position:absolute; left:270px; ;}
 #prompt img:first-child{left:0; }
 
 #prompt .num{height:18px; position:absolute; bottom:0; /*background:rgba(0,0,0,0.4);*/ background:linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.6)); width:270px; display:flex; justify-content:flex-end; }
@@ -71,9 +71,19 @@
 #happyTime .contentPic img:nth-child(1){left:0; }
 #happyTime .contentPic img:nth-child(2){left:270px; }
 #happyTime .contentPic img:nth-child(3){left:540px; }
-#happyTime .contentPic a{position:absolute; width:20px; height:100%; display:block; background:rgba(0,0,0,0.5); right:0; }
-#happyTime .contentPic .prev{left:0; }
+#happyTime .prev{position:absolute; width:20px; height:100%; left:0; background:rgba(0,0,0,0.4); }
+#happyTime .next{position:absolute; width:20px; height:100%; right:0; background:rgba(0,0,0,0.4); }
+#happyTime .prev span{display:block; height:100%; background:url("pic/prev.png") center center no-repeat; opacity:0.5; }
+#happyTime .next span{display:block; height:100%; background:url("pic/next.png") center center no-repeat; opacity:0.5; }
+#happyTime .prev span:hover{opacity:1; }
+#happyTime .next span:hover{opacity:1; }
+/*
+!*#happyTime .contentPic .prev{}*!
 #happyTime .contentPic .next{right:0; }
+!*#happyTime .contentPic .prev a{left:0; background:url("pic/prev.png") center center no-repeat; opacity:0.5; }*!
+#happyTime .contentPic .prev:hover a{opacity:1; }
+#happyTime .contentPic .next{right:0; background:url("pic/next.png") center center no-repeat;}
+*/
 
 
 
