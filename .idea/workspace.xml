@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="67313a7a-b665-4f41-91dc-1ce229d2e373" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/link/admission.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/css/admission.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/css/body_bottom.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/css/body_middle.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/css/body_top.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/css/introduce.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/css/linkPublic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/css/title.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/introduce.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/pic/body_bg.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/css/pic/body_bg.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="67313a7a-b665-4f41-91dc-1ce229d2e373" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -270,25 +257,24 @@
       <workItem from="1545586451613" duration="17517000" />
       <workItem from="1545656415747" duration="23705000" />
       <workItem from="1545738447700" duration="18199000" />
-      <workItem from="1545785170759" duration="20912000" />
+      <workItem from="1545785170759" duration="21141000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80333000" />
+    <option name="totallyTimeSpent" value="80562000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13037351" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13037351" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26683292" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26683292" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
