@@ -1,0 +1,13 @@
+#content .title{padding-bottom:50px; }
+#content .form{width:750px; margin:0 auto; background:url("message_form_top.jpg") center top no-repeat; padding-top:100px; border:1px solid #d2fb9b; border-radius:8px; height:600px; }
+#content .left{float:left; width:250px; text-align:right; }
+#content .left p{height:70px; line-height:70px; }
+#content .left p:nth-child(2){height:145px; }
+#content .right{float:right; width:500px; }
+#content .right p{padding:20px 0; }
+#content .right input{height:26px; padding:0; width:280px; }
+#content .right input:focus{background:#f0ffd0; }
+#content .right textarea{height:98px; width:280px; padding:0; resize:none; border:1px solid #cccccc; }
+#content .right textarea:focus{background:#f0ffd0; }
+#content .submit{padding-top:520px; text-align:center; }
+#content .form span{height:29px; width:91px; background:url("message_submit.jpg") no-repeat; display:inline-block; }

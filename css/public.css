@@ -23,13 +23,13 @@ img{vertical-align:top; }
 .nav{height:50px; display:flex; justify-content:center; line-height:50px;}
 .nav li{margin:0 15px; }
 .nav a{font-size:22px; font-weight:bold; }
-.nav li:nth-child(1) a{color:#ff4c4c; }
-.nav li:nth-child(2) a{color:#ff9620; }
-.nav li:nth-child(3) a{color:#ffbd00; }
-.nav li:nth-child(4) a{color:#9bbf00; }
-.nav li:nth-child(5) a{color:#4fbabb; }
-.nav li:nth-child(6) a{color:#a87eef; }
-.nav li:nth-child(7) a{color:#ff618c; }
+.nav li:nth-child(1) a{color:#ff4c4c; text-shadow:1px 1px 2px #ff4c4c; }
+.nav li:nth-child(2) a{color:#ff9620; text-shadow:1px 1px 2px #ff9620; }
+.nav li:nth-child(3) a{color:#ffbd00; text-shadow:1px 1px 2px #ffbd00; }
+.nav li:nth-child(4) a{color:#9bbf00; text-shadow:1px 1px 2px #9bbf00; }
+.nav li:nth-child(5) a{color:#4fbabb; text-shadow:1px 1px 2px #4fbabb; }
+.nav li:nth-child(6) a{color:#a87eef; text-shadow:1px 1px 2px #a87eef; }
+.nav li:nth-child(7) a{color:#ff618c; text-shadow:1px 1px 2px #ff618c; }
 
 
 
