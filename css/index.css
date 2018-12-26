@@ -89,8 +89,10 @@
 
 #contentbBttom{background:url("pic/center_bg.jpg"); }
 #contentbBttom .code{float:left; width:318px; padding-top:15px; height:210px; background:url("pic/code_bg.jpg") no-repeat bottom; text-align:center;}
-#contentbBttom .code img{height:90px; }
-#contentbBttom .code p{height:30px; line-height:30px; }
+#contentbBttom .left{height:100px; float:left; width:108px; padding-left:50px; }
+#contentbBttom .right{height:100px; float:right; width:108px; padding-right:50px; }
+#contentbBttom .code img{height:80px; }
+#contentbBttom .code p{height:30px; line-height:30px; font-size:14px; }
 #education{float:right; height:187px; width:681px; background:url("pic/education.jpg") no-repeat; padding-top:38px; }
 
 
