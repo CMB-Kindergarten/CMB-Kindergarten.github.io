@@ -5,7 +5,7 @@ addEvent(window, 'load', window_onLoad);
 
 function window_onLoad(){
     moveTopImg();
-    moveTopText();
+    //moveTopText();            //已用CSS3-animation控制
     moveHappyTimeImg();
 }
 
@@ -64,7 +64,7 @@ function moveTopImg(){
 }
 
 
-function moveTopText(){
+/*function moveTopText(){
     let oPrompt = document.getElementById('prompt');
     let oHintWextWrap = document.querySelector('#prompt .hint>div');
     let oHintText = oPrompt.getElementsByClassName('text')[0];
@@ -80,7 +80,7 @@ function moveTopText(){
         }
         oHintText.style.top = oHintText.top + 'px';
     }
-}
+}*/
 
 
 function moveHappyTimeImg(){

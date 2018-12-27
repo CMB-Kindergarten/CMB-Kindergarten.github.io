@@ -35,7 +35,12 @@
 #prompt .right{float:right; width:290px; }
 #prompt .hint{padding:70px 40px 0 0; }
 #prompt .hint > div{height:75px; overflow:hidden; }
-#prompt .hint .text{position:relative; }
+#prompt .hint .text{position:relative; animation: moveTopText 15s linear infinite; }
+#prompt .hint .text:hover{animation-play-state:paused; }
+@keyframes moveTopText {
+    0%{top:75px; }
+    to{top:-550px; }
+}
 #prompt .hint p{text-indent:2em; }
 #prompt .class{padding-top:54px; }
 #prompt .class li{background:url("pic/mashroom.png") 3px 3px no-repeat; line-height:26px; text-indent:35px; }
