@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>聪明堡幼儿园</title>
+    <!--引入title图标-->
     <link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
+    <!--引入样式文件-->
     <link href="css/public.css"  rel="stylesheet" />
     <link href="css/index.css"  rel="stylesheet" />
-    <script src="js/template.js" ></script>
-    <script src="js/data.js" ></script>
+    <!--引入主页js文件-->
     <script src="js/public.js" ></script>
-    <script src="js/render.js" ></script>
     <script src="js/index.js" ></script>
+    <!--引入数据-->
+    <script src="db/activity.js" ></script>
+    <script src="db/home.js" ></script>
+    <script src="db/recipe.js" ></script>
+    <script src="db/care.js" ></script>
+    <!--引入模板渲染引擎-->
+    <script src="js/template.js" ></script>
+    <script src="js/render.js" ></script>
 </head>
 <body>
     <div id="center">
@@ -109,30 +117,30 @@
                         </ul>
                     </div>
                 </div>
-                <div id="news" class="clear">
-                    <div class="news">
+                <div id="activity" class="clear">
+                    <div class="activity">
                         <div></div>
-                        <script id="newsText" type="text/html">
-                            <p class="more"><a href="#">更多>></a></p>
+                        <script id="activityText" type="text/html">
+                            <h3><span>缤纷活动</span><span><a href="#">更多>></a></span></h3>
                             <ul>
                                 <%for(let i=0; i<5; i++){%>
                                     <li class="li">
-                                        <a href="<%:=news[i].url%>"><%:=news[i].data%></a>
-                                        <span><%:=news[i].time%></span>
+                                        <a href="<%:=activity[i].url%>"><%:=activity[i].title%></a>
+                                        <span><%:=activity[i].time%></span>
                                     </li>
                                 <%}%>
                             </ul>
                         </script>
                     </div>
-                    <div class="notice">
+                    <div class="home">
                         <div></div>
-                        <script id="noticeText" type="text/html">
-                            <p class="more"><a href="#">更多>></a></p>
+                        <script id="homeText" type="text/html">
+                            <h3><span>家园互动</span><span><a href="#">更多>></a></span></h3>
                             <ul>
                                 <%for(let i = 0; i<5; i++){%>
                                     <li class="li">
-                                        <a href="<%:=notice[i].url%>"><%:=notice[i].data%></a>
-                                        <span><%:=notice[i].time%></span>
+                                        <a href="<%:=home[i].url%>"><%:=home[i].title%></a>
+                                        <span><%:=home[i].time%></span>
                                     </li>
                                 <%}%>
                             </ul>
@@ -174,16 +182,16 @@
                 </div>
             </div>
 
-            <div id="education" class="clear">
-                <div class="education">
+            <div id="recipe" class="clear">
+                <div class="recipe">
                     <div></div>
-                    <script id="educationText" type="text/html">
-                        <p class="more"><a href="#">更多>></a></p>
+                    <script id="recipeText" type="text/html">
+                        <h3><span>每周食谱</span><span><a href="#">更多>></a></span></h3>
                         <ul>
                             <%for(let i=0; i<4; i++){%>
                                 <li class="li">
-                                    <a href="<%:=education[i].url%>"><%:=education[i].data%></a>
-                                    <span><%:=education[i].time%></span>
+                                    <a href="<%:=recipe[i].url%>"><%:=recipe[i].title%></a>
+                                    <span><%:=recipe[i].time%></span>
                                 </li>
                             <%}%>
                         </ul>
@@ -192,11 +200,11 @@
                 <div class="care">
                     <div></div>
                     <script id="careText" type="text/html">
-                        <p class="more"><a href="#">更多>></a></p>
+                        <h3><span>幼儿保健</span><span><a href="#">更多>></a></span></h3>
                         <ul>
                             <%for(let i = 0; i<4; i++){%>
                                 <li class="li">
-                                    <a href="<%:=care[i].url%>"><%:=care[i].data%></a>
+                                    <a href="<%:=care[i].url%>"><%:=care[i].title%></a>
                                     <span><%:=care[i].time%></span>
                                 </li>
                             <%}%>

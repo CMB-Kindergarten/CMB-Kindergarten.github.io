@@ -4,10 +4,10 @@ addEvent(window,'load',window_renderFn)
 
 function window_renderFn(){
 
-    renderText(document.querySelector('#news .news>div'), 'newsText', data);
-    renderText(document.querySelector('#news .notice>div'), 'noticeText', data);
-    renderText(document.querySelector('#education .education>div'), 'educationText', data);
-    renderText(document.querySelector('#education .care>div'), 'careText', data);
+    renderText(document.querySelector('#activity .activity>div'), 'activityText', activity);
+    renderText(document.querySelector('#activity .home>div'), 'homeText', home);
+    renderText(document.querySelector('#recipe .recipe>div'), 'recipeText', recipe);
+    renderText(document.querySelector('#recipe .care>div'), 'careText', care);
     function renderText(templateWrap, templateTextId, data){
         let templateText = document.getElementById(templateTextId).innerHTML;
         templateWrap.innerHTML = template(templateText, data);

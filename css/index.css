@@ -1,6 +1,6 @@
 #contentTop{background:url("pic/center_bg.jpg"); padding:10px 0; padding-left:10px; }
-#contentTop > .left{width:300px; /*border-right:1px solid #000;*/ float:left; }
-#contentTop > .right{width:688px; /*border-left:1px solid #000;*/ float:right; }
+#contentTop > .left{width:300px; float:left; }
+#contentTop > .right{width:688px; float:right; }
 
 
 #remarks{width:281px; height:320px; background:url("pic/remarks.jpg"); }
@@ -9,7 +9,7 @@
 #remarks .top{padding-left:20px; }
 #remarks .top img{float:left; height:80px; width:80px; }
 #remarks .top ul{float:left; color:#ff7a00; padding-left:20px; line-height:24px; }
-#remarks .bottom{height:129px; background:url("pic/remarks_bottom_bg.jpg"); padding:40px 0 0 24px; line-height:24px; }
+#remarks .bottom{height:129px; background:url("pic/remarks_bottom_bg.jpg"); padding:40px 0 0 24px; line-height:24px; font-size:12px; color:#107310; }
 
 
 #nav_left{height:275px; padding-top:10px; background:url("pic/nav_left.jpg"); width:281px; margin-top:14px; }
@@ -46,18 +46,24 @@
 #prompt .class li{background:url("pic/mashroom.png") 3px 3px no-repeat; line-height:26px; text-indent:35px; }
 
 
-#news{width:682px; height:249px; padding-top:36px; background:url("pic/news.jpg") no-repeat; margin-top:22px; }
-#news .news, #education .education{float:left; width:272px; padding-left:30px; }
-#news .notice, #education .care{float:right; width:272px; padding-right:30px; }
-#news .more, #education .more{text-align:right; }
-#news .more a, #education .more a{color:#fff; font-size:12px; margin-right:10px; }
-#news .more a:hover, #education .more a:hover{text-decoration:underline; }
-#news ul, #education ul{padding-top:20px; font-size:12px; color:#949494; }
-#education ul{padding-top:15px; }
-#news li, #education li{display:flex; justify-content:space-between; padding:12px 0 0 25px; height:23px; background:url("pic/flower.gif") no-repeat 0 7px;  }
-#news li a, #education li a{color:#949494; width:180px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; line-height:12px; height:12px; display:block}
-#news li a:hover, #education li a:hover{color:#269bff; }
-#news span, #education span{width:70px; text-align:right; }
+#activity{width:682px; height:249px; padding-top:36px; background:url("pic/activity.jpg") no-repeat; margin-top:22px; }
+#activity .activity, #recipe .recipe{float:left; width:272px; padding-left:30px; }
+#activity .home, #recipe .care{float:right; width:272px; padding-right:30px; }
+#activity .more, #recipe .more{text-align:right; }
+
+#activity h3, #recipe h3{display:flex; justify-content:space-between; width:272px; height:22px; line-height:22px; }
+#activity h3 span:first-child, #recipe h3 span:first-child{width:100px; font-size:20px; color:#fff; padding-left:44px; }
+#activity h3 span:last-child a, #recipe h3 span:last-child a{color:#fff; font-size:12px; font-weight:initial; padding-right:20px; }
+#activity h3 span:last-child a:hover, #recipe h3 span:last-child a:hover{text-decoration:underline; }
+
+#activity .more a, #recipe .more a{color:#fff; font-size:12px; margin-right:10px; }
+#activity .more a:hover, #recipe .more a:hover{text-decoration:underline; }
+#activity ul, #recipe ul{padding-top:20px; font-size:12px; color:#949494; }
+#recipe ul{padding-top:15px; }
+#activity li, #recipe li{display:flex; justify-content:space-between; padding:12px 0 0 25px; height:23px; background:url("pic/flower.gif") no-repeat 0 7px;  }
+#activity li a, #recipe li a{color:#949494; width:180px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; line-height:12px; height:12px; display:block}
+#activity li a:hover, #recipe li a:hover{color:#269bff; }
+#activity span, #recipe span{width:70px; text-align:right; }
 
 
 #happyTime{background:url("pic/center_bg.jpg"); padding-bottom:10px; }
@@ -85,7 +91,7 @@
 #contentbBttom .right{height:100px; float:right; width:108px; padding-right:50px; }
 #contentbBttom .code img{height:80px; }
 #contentbBttom .code p{height:30px; line-height:30px; font-size:14px; }
-#education{float:right; height:187px; width:681px; background:url("pic/education.jpg") no-repeat; padding-top:38px; }
+#recipe{float:right; height:187px; width:681px; background:url("pic/recipe.jpg") no-repeat; padding-top:38px; }
 
 
 
