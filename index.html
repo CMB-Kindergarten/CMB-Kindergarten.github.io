@@ -139,7 +139,7 @@
                             <ul>
                                 <%for(let i = 0; i<5; i++){%>
                                     <li class="li">
-                                        <a href="<%:=home[i].url%>"><%:=home[i].title%></a>
+                                        <a href="<%:=home[i].url%>"><%=i+1%><%:=home[i].title%></a>
                                         <span><%:=home[i].time%></span>
                                     </li>
                                 <%}%>
@@ -204,7 +204,7 @@
                         <ul>
                             <%for(let i = 0; i<4; i++){%>
                                 <li class="li">
-                                    <a href="<%:=care[i].url%>"><%:=care[i].title%></a>
+                                    <a href="link/care/<%:=care[i].url%>"><%=i+1%><%:=care[i].title%></a>
                                     <span><%:=care[i].time%></span>
                                 </li>
                             <%}%>

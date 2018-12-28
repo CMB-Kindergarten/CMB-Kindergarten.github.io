@@ -82,7 +82,6 @@ function moveTopImg(){
     }
 }*/
 
-
 function moveHappyTimeImg(){
     let picWrap = document.querySelector('#happyTime .pic');
     let aImg = document.querySelectorAll('#happyTime img');

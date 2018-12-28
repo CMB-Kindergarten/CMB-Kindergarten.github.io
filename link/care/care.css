@@ -1,12 +1,12 @@
 table{width:681px; margin:0 auto; border:1px solid #e9e3d2; border-collapse:collapse; margin-top:60px; }
-tr{height:40px; background:#fdfbed url("xin.gif") 70px 15px no-repeat; border-bottom:1px solid #e9e3d2; font-size:14px; color:#6c6c6b;}
+tr{height:40px;background:#fdfbed; border-bottom:1px solid #e9e3d2; font-size:14px; color:#6c6c6b;}
 tr:first-child{background:#fff6b4; color:#ff7500; }
 tr:first-child th:first-child{text-align:left; text-indent:150px; }
 tr:first-child th:last-child{text-align:left; text-indent:20px; }
 tr a{color:#6c6c6b; }
 tr a:hover{color:#992d2c; text-decoration:underline; }
 td{padding:0; }
-tr td:first-child{text-indent:100px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; }
+tr td:first-child{text-indent:100px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis;  background:url("xin.gif") 70px 15px no-repeat; }
 
 .now_all{text-align:center; margin-top:50px; font-size:14px; }
 .page{width:600px; margin:0 auto; font-size:14px; text-align:center; }

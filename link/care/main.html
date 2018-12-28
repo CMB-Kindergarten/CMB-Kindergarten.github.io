@@ -31,7 +31,7 @@
             <li><a href="../introduce.html">园所介绍</a></li>
             <li><a href="#">缤纷活动</a></li>
             <li><a href="#">家园互动</a></li>
-            <li><a href="#">幼儿保健</a></li>
+            <li><a href="./main.html">幼儿保健</a></li>
             <li><a href="../admission.html">招生简章</a></li>
             <li><a href="../message.html">留言板</a></li>
         </ul>
@@ -91,7 +91,7 @@
 </div>
 
 <script>
-    //把全局变量挂载到window下，确保模板引擎和主页js都能获取
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
     window.now = 1;
     window.len = 15;
     window.page = Math.ceil(care.care.length/len);
@@ -106,7 +106,11 @@
     turnPageNext();
 
     GO.onclick = function(){
-        if(!(jump.value>0 && jump.value<=page && parseInt(jump.value)===parseFloat(jump.value))) return;
+        if(!(jump.value>0 && jump.value<=page && parseInt(jump.value)===parseFloat(jump.value))){
+            jump.value = '';
+            alert('页码范围越界或格式有误');
+            return;
+        }
         now = parseInt(jump.value);
         render();
         judge();
