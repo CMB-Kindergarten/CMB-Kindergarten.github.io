@@ -1,4 +1,4 @@
-addEvent(window,'load',window_renderFn)
+addEvent(window,'load',window_renderFn);
 
 
 

@@ -90,7 +90,7 @@
 <script>
     //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
     //每次用js传入当前页信息id，从数据中动态筛选
-    window.id = 20181201;
+    window.id = 20181209;
     document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
     document.title = template(document.querySelector('#titleText').innerHTML, care);
 
