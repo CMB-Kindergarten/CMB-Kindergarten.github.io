@@ -59,7 +59,7 @@
 
             <script id="careText" type="text/html">
                 <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
-                <h2><%=entry.title%></h2>
+                <h2><%=entry.id%><%=entry.title%></h2>
                 <% for(let i=0, len=entry.content.length; i<len; i++){%>
                 <p><%=entry.content[i]%></p>
                 <%}%>
@@ -90,7 +90,7 @@
 <script>
     //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
     //每次用js传入当前页信息id，从数据中动态筛选
-    window.id = 20181213;
+    window.id = 20181204;
     document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
     document.title = template(document.querySelector('#titleText').innerHTML, care);
 

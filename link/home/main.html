@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>幼儿保健-聪明堡幼儿园</title>
+    <title>缤纷活动-聪明堡幼儿园</title>
     <link rel="shortcut icon" type="image/x-icon" href="../../logo.ico" />
     <link href="../../css/public.css"  rel="stylesheet" />
     <link href="../css/linkPublic.css"  rel="stylesheet" />
     <link href="css.css"  rel="stylesheet" />
-    <script src="../../db/care.js" ></script>
+    <script src="../../db/home.js" ></script>
     <script src="../../js/public.js" ></script>
     <script src="../../js/template.js" ></script>
 </head>
@@ -30,8 +30,8 @@
             <li><a href="./../../index.html">网站首页</a></li>
             <li><a href="../introduce.html">园所介绍</a></li>
             <li><a href="../activity/main.html">缤纷活动</a></li>
-            <li><a href="../home/main.html">家园互动</a></li>
-            <li><a href="./main.html">幼儿保健</a></li>
+            <li><a href="./main.html">家园互动</a></li>
+            <li><a href="../care/main.html">幼儿保健</a></li>
             <li><a href="../admission.html">招生简章</a></li>
             <li><a href="../message.html">留言板</a></li>
         </ul>
@@ -41,29 +41,32 @@
     <div id="content">
         <div>
             <div class="title">
-                <h2 class="content">幼儿保健</h2>
+                <h2 class="content">家园互动</h2>
             </div>
             <div class="text"></div>
+
+
+
+
             <script id="careText" type="text/html">
-                <table>
-                    <tr>
-                        <th>标题</th>
-                        <th>日期</th>
-                    </tr>
+                <div class="substance">
                     <% if(now !== page){for(let i = (now-1)*len; i<(now-1)*len+len; i++){%>
-                    <tr>
-                        <td width="480"><a href="<%=care[i].url%>"><%=i+1%>.<%=care[i].title%></a></td>
-                        <td width="200"><%=care[i].time%></td>
-                    </tr>
-                    <%}}else{for(let i=(now-1)*len; i<care.length; i++){%>
-                    <tr>
-                        <td width="480"><a href="<%=care[i].url%>"><%=i+1%>.<%=care[i].title%></a></td>
-                        <td width="200"><%=care[i].time%></td>
-                    </tr>
+                        <div>
+                            <a href="<%=home[i].url%>"><img src="<%=home[i].titleImg%>" alt="<%=home[i].title%>"/></a>
+                            <p><a href="<%=home[i].url%>"><%=i+1%>.<%=home[i].title%></a></p>
+                        </div>
+                    <%}}else{for(let i=(now-1)*len; i<home.length; i++){%>
+                    <div>
+                        <a href="<%=home[i].url%>"><img src="<%=home[i].titleImg%>" alt="<%=home[i].title%>"/></a>
+                        <p><a href="<%=home[i].url%>"><%=i+1%>.<%=home[i].title%></a></p>
+                    </div>
                     <%}}%>
-                </table>
+                </div>
                 <p class="now_all">第：<%=now%>/<%=page%>页</p>
             </script>
+
+
+
             <p class="page">
                 <span>首页</span>
                 <span>上一页</span>
@@ -92,8 +95,8 @@
 <script>
     //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
     window.now = 1;
-    window.len = 15;
-    window.page = Math.ceil(care.care.length/len);
+    window.len = 6;
+    window.page = Math.ceil(home.home.length/len);
 
     const changePage = document.querySelectorAll('.page span');
     const jump = document.querySelector('.page input[type="text"]');
@@ -145,7 +148,7 @@
     function render(){      //渲染数据
         let templateText = document.querySelector('#careText').innerHTML;
         let wrap = document.querySelector('#content .text');
-        wrap.innerHTML = template(templateText, care);
+        wrap.innerHTML = template(templateText, home);
     }
     function judge(){       //判断是否为首页或尾页
         if(page === 1){

@@ -39,8 +39,8 @@
             <ul class="nav">
                 <li><a href="./index.html">网站首页</a></li>
                 <li><a href="link/introduce.html">园所介绍</a></li>
-                <li><a href="#">缤纷活动</a></li>
-                <li><a href="#">家园互动</a></li>
+                <li><a href="link/activity/main.html">缤纷活动</a></li>
+                <li><a href="link/home/main.html">家园互动</a></li>
                 <li><a href="link/care/main.html">幼儿保健</a></li>
                 <li><a href="link/admission.html">招生简章</a></li>
                 <li><a href="link/message.html">留言板</a></li>
@@ -121,11 +121,11 @@
                     <div class="activity">
                         <div></div>
                         <script id="activityText" type="text/html">
-                            <h3><span>缤纷活动</span><span><a href="#">更多>></a></span></h3>
+                            <h3><span>缤纷活动</span><span><a href="link/activity/main.html">更多>></a></span></h3>
                             <ul>
                                 <%for(let i=0; i<5; i++){%>
                                     <li class="li">
-                                        <a href="<%:=activity[i].url%>"><%:=activity[i].title%></a>
+                                        <a href="link/activity/<%:=activity[i].url%>"><%=i+1%><%:=activity[i].title%></a>
                                         <span><%:=activity[i].time%></span>
                                     </li>
                                 <%}%>
@@ -135,11 +135,11 @@
                     <div class="home">
                         <div></div>
                         <script id="homeText" type="text/html">
-                            <h3><span>家园互动</span><span><a href="#">更多>></a></span></h3>
+                            <h3><span>家园互动</span><span><a href="link/home/main.html">更多>></a></span></h3>
                             <ul>
                                 <%for(let i = 0; i<5; i++){%>
                                     <li class="li">
-                                        <a href="<%:=home[i].url%>"><%=i+1%><%:=home[i].title%></a>
+                                        <a href="link/home/<%:=home[i].url%>"><%=i+1%><%:=home[i].title%></a>
                                         <span><%:=home[i].time%></span>
                                     </li>
                                 <%}%>

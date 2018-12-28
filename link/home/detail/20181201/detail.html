@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <title></title>
     <script id="titleText" type="text/html">
-        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%const entry = home.filter(function(item){ return item.id === window.id; })[0]%>
         <%=entry.title%>-聪明堡幼儿园
     </script>
     <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
     <link href="../../../../css/public.css"  rel="stylesheet" />
     <link href="../../../css/linkPublic.css"  rel="stylesheet" />
-    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../db/home.js" ></script>
     <script src="../../../../js/public.js" ></script>
     <script src="../../../../js/template.js" ></script>
     <style>
@@ -37,9 +37,9 @@
         <ul class="nav">
             <li><a href="./../../../../index.html">网站首页</a></li>
             <li><a href="../../../introduce.html">园所介绍</a></li>
-            <li><a href="#">缤纷活动</a></li>
-            <li><a href="#">家园互动</a></li>
-            <li><a href="../../main.html">幼儿保健</a></li>
+            <li><a href="../../../activity/main.html">缤纷活动</a></li>
+            <li><a href="../../main.html">家园互动</a></li>
+            <li><a href="../../../care/main.html">幼儿保健</a></li>
             <li><a href="../../../admission.html">招生简章</a></li>
             <li><a href="../../../message.html">留言板</a></li>
         </ul>
@@ -49,27 +49,17 @@
     <div id="content">
         <div>
             <div class="title">
-                <h2 class="content">幼儿保健</h2>
+                <h2 class="content">家园互动</h2>
             </div>
             <div class="text"></div>
-
-
-
-
-
             <script id="careText" type="text/html">
-                <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
-                <h2><%=entry.title%></h2>
+                <%const entry = home.filter(function(item){ return item.id === window.id; })[0]%>
+                <h2><%=entry.id%><%=entry.title%></h2>
                 <% for(let i=0, len=entry.content.length; i<len; i++){%>
                 <p><%=entry.content[i]%></p>
                 <%}%>
                 <p class="time"><%=entry.time%></p>
             </script>
-
-
-
-
-
         </div>
     </div>
 
@@ -90,9 +80,9 @@
 <script>
     //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
     //每次用js传入当前页信息id，从数据中动态筛选
-    window.id = 20181215;
-    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
-    document.title = template(document.querySelector('#titleText').innerHTML, care);
+    window.id = 20181201;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, home);
+    document.title = template(document.querySelector('#titleText').innerHTML, home);
 
 
 

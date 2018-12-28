@@ -1,0 +1,12 @@
+#content .substance{width:650px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; }
+#content .substance > div{width:300px; margin:10px 0; text-align:center; }
+#content .substance > div > a{display:block; }
+#content .substance > div img{width:300px; }
+#content .substance > div p{text-align:center; font-size:16px; padding-top:10px; white-space:nowrap;  overflow:hidden; text-overflow:ellipsis; }
+#content .substance > div a{color:#666; }
+#content .substance > div a:hover{color:#992d2c; text-decoration:underline; }
+.now_all{text-align:center; margin-top:30px; font-size:14px; }
+.page{width:600px; margin:0 auto; font-size:14px; text-align:center; }
+.page span{cursor:pointer; color:rgb(0, 0, 238); text-decoration:underline; }
+.page .disable{color:#999; cursor:text; text-decoration:none; }
+.page input[type="text"]{width:40px; }

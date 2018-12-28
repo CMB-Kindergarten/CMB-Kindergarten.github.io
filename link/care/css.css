@@ -6,7 +6,7 @@ tr:first-child th:last-child{text-align:left; text-indent:20px; }
 tr a{color:#6c6c6b; }
 tr a:hover{color:#992d2c; text-decoration:underline; }
 td{padding:0; }
-tr td:first-child{text-indent:100px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis;  background:url("xin.gif") 70px 15px no-repeat; }
+tr td:first-child{text-indent:100px; white-space:nowrap;  overflow:hidden; text-overflow:ellipsis;  background:url("xin.gif") 70px 15px no-repeat; }
 
 .now_all{text-align:center; margin-top:50px; font-size:14px; }
 .page{width:600px; margin:0 auto; font-size:14px; text-align:center; }
