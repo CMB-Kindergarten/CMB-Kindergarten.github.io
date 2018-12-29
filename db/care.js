@@ -1,4 +1,4 @@
-const care = {            //最新的放最上边
+const care = {            //倒序处理，最新的放最下边;有实际数据时再reverse
     "care" : [
         {
             "id" : 20181201,
@@ -2429,3 +2429,5 @@ const care = {            //最新的放最上边
         }
     ]
 };
+
+//care.care.reverse();

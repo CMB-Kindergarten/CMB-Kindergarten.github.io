@@ -1,4 +1,4 @@
-const home = {            //最新的放最上边
+const home = {            //倒序处理，最新的放最下边;有实际数据时再reverse
     "home" : [
         {
             "id" : 20181201,
@@ -2444,3 +2444,5 @@ const home = {            //最新的放最上边
         }
     ]
 };
+
+//home.home.reverse();

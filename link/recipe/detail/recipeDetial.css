@@ -1,0 +1,13 @@
+#content .title span{color:#000; font-size:16px; }
+
+
+
+table,th,tr,td{padding:0; }
+table{width:940px; margin:0 auto; border:1px solid #e9e3d2; border-collapse:collapse; }
+tr{background:#fdfbed; border-bottom:1px solid #e9e3d2; font-size:14px; color:#6c6c6b;}
+tr:first-child{background:#fff6b4; color:#ff7500; }
+tr:first-child th{height:40px; border-right:1px solid #e9e3d2; }
+td{border-right:1px solid #e9e3d2; padding:0 5px; }
+table div{padding-top:10px; }
+table img{width:160px; }
+table p{text-align:center; padding:5px 0; }

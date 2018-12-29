@@ -1,4 +1,4 @@
-const activity = {            //最新的放最上边
+const activity = {            //倒序处理，最新的放最下边;有实际数据时再reverse
     "activity" : [
         {
             "id" : 20181201,
@@ -2444,3 +2444,5 @@ const activity = {            //最新的放最上边
         }
     ]
 };
+
+//activity.activity.reverse();

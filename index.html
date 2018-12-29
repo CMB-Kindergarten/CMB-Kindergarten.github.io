@@ -71,8 +71,8 @@
                 </div>
                 <div id="nav_left">
                     <ul>
-                        <li><a href="#">每周食谱</a></li>
-                        <li><a href="#">缤纷活动</a></li>
+                        <li><a href="link/recipe/main.html">每周食谱</a></li>
+                        <li><a href="link/activity/main.html">缤纷活动</a></li>
                         <li><a href="#">精彩视频</a></li>
                         <li><a href="#">园长信箱</a></li>
                     </ul>
@@ -186,11 +186,11 @@
                 <div class="recipe">
                     <div></div>
                     <script id="recipeText" type="text/html">
-                        <h3><span>每周食谱</span><span><a href="#">更多>></a></span></h3>
+                        <h3><span>每周食谱</span><span><a href="link/recipe/main.html">更多>></a></span></h3>
                         <ul>
                             <%for(let i=0; i<4; i++){%>
                                 <li class="li">
-                                    <a href="<%:=recipe[i].url%>"><%:=recipe[i].title%></a>
+                                    <a href="link/recipe/<%:=recipe[i].url%>"><%=i+1%><%:=recipe[i].title%></a>
                                     <span><%:=recipe[i].time%></span>
                                 </li>
                             <%}%>
