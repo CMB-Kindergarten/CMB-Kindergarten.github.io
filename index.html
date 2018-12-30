@@ -3,22 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>聪明堡幼儿园</title>
-    <!--引入title图标-->
+    <!--title图标-->
     <link rel="shortcut icon" type="image/x-icon" href="logo.ico" />
-    <!--引入样式文件-->
+    <!--样式文件-->
     <link href="css/public.css"  rel="stylesheet" />
     <link href="css/index.css"  rel="stylesheet" />
-    <!--引入主页js文件-->
-    <script src="js/public.js" ></script>
+    <!--主页js文件-->
     <script src="js/index.js" ></script>
-    <!--引入数据-->
+    <!--数据-->
     <script src="db/activity.js" ></script>
     <script src="db/home.js" ></script>
     <script src="db/recipe.js" ></script>
     <script src="db/care.js" ></script>
-    <!--引入模板渲染引擎-->
+    <!--模板渲染引擎-->
     <script src="js/template.js" ></script>
-    <script src="js/render.js" ></script>
 </head>
 <body>
     <div id="center">
@@ -124,7 +122,7 @@
                         <script id="activityText" type="text/html">
                             <h3><span>缤纷活动</span><span><a href="link/activity/main.html">更多>></a></span></h3>
                             <ul>
-                                <%for(let i=0; i<5; i++){%>
+                                <%for(let i=0,len=activity.length<=5?activity.length:5; i<len; i++){%>
                                     <li class="li">
                                         <a href="link/activity/<%:=activity[i].url%>"><%=i+1%><%:=activity[i].title%></a>
                                         <span><%:=activity[i].time%></span>
@@ -138,7 +136,7 @@
                         <script id="homeText" type="text/html">
                             <h3><span>家园互动</span><span><a href="link/home/main.html">更多>></a></span></h3>
                             <ul>
-                                <%for(let i = 0; i<5; i++){%>
+                                <%for(let i=0,len=home.length<=5?home.length:5; i<len; i++){%>
                                     <li class="li">
                                         <a href="link/home/<%:=home[i].url%>"><%=i+1%><%:=home[i].title%></a>
                                         <span><%:=home[i].time%></span>
@@ -189,7 +187,7 @@
                     <script id="recipeText" type="text/html">
                         <h3><span>每周食谱</span><span><a href="link/recipe/main.html">更多>></a></span></h3>
                         <ul>
-                            <%for(let i=0; i<4; i++){%>
+                            <%for(let i=0,len=recipe.length<=4?recipe.length:4; i<len; i++){%>
                                 <li class="li">
                                     <a href="link/recipe/<%:=recipe[i].url%>"><%=i+1%><%:=recipe[i].title%></a>
                                     <span><%:=recipe[i].time%></span>
@@ -203,7 +201,7 @@
                     <script id="careText" type="text/html">
                         <h3><span>幼儿保健</span><span><a href="link/care/main.html">更多>></a></span></h3>
                         <ul>
-                            <%for(let i = 0; i<4; i++){%>
+                            <%for(let i=0,len=care.length<=4?care.length:4; i<len; i++){%>
                                 <li class="li">
                                     <a href="link/care/<%:=care[i].url%>"><%=i+1%><%:=care[i].title%></a>
                                     <span><%:=care[i].time%></span>

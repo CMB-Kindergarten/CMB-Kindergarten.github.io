@@ -35,7 +35,7 @@
 #prompt .right{float:right; width:290px; }
 #prompt .hint{padding:70px 40px 0 0; }
 #prompt .hint > div{height:75px; overflow:hidden; }
-#prompt .hint .text{position:relative; animation: moveTopText 15s linear infinite; font-size:12px; line-height:20px; }
+#prompt .hint .text{position:relative; animation: moveTopText 20s linear infinite; font-size:12px; line-height:20px; }
 #prompt .hint .text p{padding-bottom:5px;}
 #prompt .hint .text:hover{animation-play-state:paused; }
 @keyframes moveTopText {

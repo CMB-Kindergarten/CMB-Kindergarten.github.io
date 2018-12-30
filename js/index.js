@@ -5,11 +5,9 @@ addEvent(window, 'load', window_onLoad);
 
 function window_onLoad(){
     moveTopImg();
-    //moveTopText();            //已用CSS3-animation控制
     setTimeout(moveHappyTimeImg);   //异步操作，模板引擎渲染结束再执行
-
+    renderFn()
 }
-
 
 
 function moveTopImg(){
@@ -64,24 +62,6 @@ function moveTopImg(){
     }
 }
 
-
-/*function moveTopText(){
-    let oPrompt = document.getElementById('prompt');
-    let oHintWextWrap = document.querySelector('#prompt .hint>div');
-    let oHintText = oPrompt.getElementsByClassName('text')[0];
-
-    let timerText = setInterval(moveText, 40);
-    mouseOverClearTimer(oHintWextWrap, timerText, moveText, 40);
-
-    oHintText.top = 0;
-    function moveText(){                            //移动文字
-        oHintText.top--;
-        if(oHintText.top <= -parseInt(getComputedStyle(oHintText).height) ){
-            oHintText.top = 75;
-        }
-        oHintText.style.top = oHintText.top + 'px';
-    }
-}*/
 
 function moveHappyTimeImg(){
     let picWrap = document.querySelector('#happyTime .pic');
@@ -163,4 +143,47 @@ function moveHappyTimeImg(){
             picWrap.prevBtn = !picWrap.prevBtn;
         }
     }
+}
+
+
+
+//////////////以下为工具方法
+function addEvent(obj,type,fn){//obj目标对象,type事件类型,fn函数回调
+    if(typeof obj.addEventListener!=='undefined'){//W3C 标准
+        obj.addEventListener(type,fn,false);//type事件名称,fn执行函数,false捕获
+    }else if(typeof obj.attachEvent!=='undefined'){//IE
+        obj.attachEvent('on'+type,fn);
+        fn.call(obj,window.event);//对象冒充
+    }
+}
+
+function renderFn(){
+    renderText('#activity .activity>div', 'activityText', activity);
+    renderText('#activity .home>div', 'homeText', home);
+    renderText('#happyTime .content>div', 'happyTimeText', activity);
+    renderText('#recipe .recipe>div', 'recipeText', recipe);
+    renderText('#recipe .care>div', 'careText', care);
+    function renderText(templateWrapId, templateTextId, data){
+        let templateText = document.getElementById(templateTextId).innerHTML;
+        document.querySelector(templateWrapId).innerHTML = template(templateText, data);
+    }
+}
+
+function mouseOverClearTimer(obj, timer, fn, times){     //鼠标移入清除定时器
+    obj.onmouseover = clearInterval.bind(null,[timer]);
+    obj.onmouseout = function(){
+        clearInterval(timer);
+        timer = setInterval(fn, times);
+    };
+}
+
+function cssDoMove(obj, dir, time, target, endFn){
+    setTimeout(function(){              //异步操作，防止多次定义样式覆盖问题
+        obj.style[dir] = target + 'px';
+        obj.style.transition = time + 's linear';
+        setTimeout(function(){
+            obj.style.transition = '0s';
+            endFn && endFn();
+        }, time*1000)
+    });
 }
