@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67313a7a-b665-4f41-91dc-1ce229d2e373" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/link/recipe/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/activity.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/activity.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/care.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/care.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/recipe.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/render.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/render.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,14 +19,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44519392">
+    <splitter split-orientation="horizontal" split-proportion="0.4342327">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="318">
-                  <caret line="200" column="31" lean-forward="true" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="31" />
+                <state relative-caret-position="387">
+                  <caret line="172" column="8" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -37,31 +34,13 @@
           <file leaf-file-name="main.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/link/recipe/main.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="43" column="40" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="40" />
+                <state relative-caret-position="1005">
+                  <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
                   <folding>
                     <element signature="e#2740#2746#0" expanded="true" />
                     <element signature="e#2746#2752#0" expanded="true" />
                     <element signature="e#2792#2798#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181201/detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="381">
-                  <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181215/detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="392">
-                  <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
@@ -73,44 +52,44 @@
           <file leaf-file-name="activity.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/db/activity.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+                <state relative-caret-position="270">
+                  <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="recipe.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db/recipe.js">
+          <file leaf-file-name="public.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/public.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+                <state relative-caret-position="207">
+                  <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="care.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db/care.js">
+          <file leaf-file-name="render.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/render.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="27" selection-start-column="27" selection-end-column="27" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="home.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/db/home.js">
+          <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/css/index.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="26" selection-start-column="26" selection-end-column="26" />
+                <state relative-caret-position="385">
+                  <caret line="77" column="61" lean-forward="true" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="recipeDetial.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/link/recipe/detail/recipeDetial.css">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="45" selection-start-column="45" selection-end-column="45" />
+                <state relative-caret-position="148">
+                  <caret line="89" column="58" selection-start-line="89" selection-start-column="58" selection-end-line="89" selection-end-column="58" />
                 </state>
               </provider>
             </entry>
@@ -131,10 +110,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>提示二温习提</find>
-      <find>img/photo.jpg</find>
-      <find>clearTimer</find>
-      <find>5</find>
       <find>/*overflow:hidden;*/</find>
       <find>transition:.5s linear</find>
       <find>overflow:hidden;</find>
@@ -161,6 +136,10 @@
       <find>这是早饭内容，这是早饭内容，这是早饭内容</find>
       <find>entry</find>
       <find>care</find>
+      <find>text</find>
+      <find>class</find>
+      <find>contentPic</find>
+      <find>happyTime</find>
     </findStrings>
     <replaceStrings>
       <replace>move1</replace>
@@ -192,8 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/link/activity/css.css" />
-        <option value="$PROJECT_DIR$/db/home1.js" />
         <option value="$PROJECT_DIR$/link/home/main.html" />
         <option value="$PROJECT_DIR$/link/admission.html" />
         <option value="$PROJECT_DIR$/link/introduce.html" />
@@ -227,7 +204,6 @@
         <option value="$PROJECT_DIR$/link/home/detail/20181204/detail.html" />
         <option value="$PROJECT_DIR$/link/home/detail/20181205/detail.html" />
         <option value="$PROJECT_DIR$/link/home/detail/20181206/detail.html" />
-        <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/link/recipe/main.html" />
         <option value="$PROJECT_DIR$/link/recipe/detail/recipeDetialPublic.css" />
         <option value="$PROJECT_DIR$/link/recipe/css.css" />
@@ -238,10 +214,13 @@
         <option value="$PROJECT_DIR$/link/recipe/detail/20181202/detail.html" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20181215/detail.html" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20181222/detail.html" />
-        <option value="$PROJECT_DIR$/db/activity.js" />
         <option value="$PROJECT_DIR$/db/home.js" />
         <option value="$PROJECT_DIR$/db/care.js" />
         <option value="$PROJECT_DIR$/db/recipe.js" />
+        <option value="$PROJECT_DIR$/js/render.js" />
+        <option value="$PROJECT_DIR$/css/index.css" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/db/activity.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -337,12 +316,13 @@
       <workItem from="1545785170759" duration="26341000" />
       <workItem from="1545843030591" duration="35963000" />
       <workItem from="1545924984555" duration="15076000" />
-      <workItem from="1545979300553" duration="23308000" />
+      <workItem from="1545979300553" duration="24172000" />
+      <workItem from="1546150376139" duration="2849000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160109000" />
+    <option name="totallyTimeSpent" value="163822000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -364,7 +344,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917705" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.20698254" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23441397" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -385,38 +365,14 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/link/introduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/activity/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="32" column="57" lean-forward="true" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/link/care/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="335">
           <caret line="32" column="42" selection-start-line="32" selection-start-column="42" selection-end-line="32" selection-end-column="42" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -626,51 +582,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="63" column="41" lean-forward="true" selection-start-line="63" selection-start-column="41" selection-end-line="63" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/recipeDetialPublic.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/recipeDetialPublic.css" />
     <entry file="file://$PROJECT_DIR$/js/public.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-21" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="43" column="40" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="40" />
-          <folding>
-            <element signature="e#2740#2746#0" expanded="true" />
-            <element signature="e#2746#2752#0" expanded="true" />
-            <element signature="e#2792#2798#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181201/aaa.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/recipe1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181201/aaa.ejs" />
+    <entry file="file://$PROJECT_DIR$/db/recipe1.js" />
     <entry file="file://$PROJECT_DIR$/link/recipe/css.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181203/detail.html" />
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181202/detail.html" />
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181222/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -681,17 +613,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181203/detail.html">
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181215/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181202/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
+        <state relative-caret-position="392">
+          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -702,31 +627,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181215/detail.html">
+    <entry file="file://$PROJECT_DIR$/link/recipe/main.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="101" column="33" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181222/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="26" selection-start-column="26" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/care.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="31" lean-forward="true" selection-start-line="67" selection-start-column="31" selection-end-line="67" selection-end-column="31" />
+          <folding>
+            <element signature="e#2740#2746#0" expanded="true" />
+            <element signature="e#2746#2752#0" expanded="true" />
+            <element signature="e#2792#2798#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -737,17 +646,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/care.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/home.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="89" column="58" selection-start-line="89" selection-start-column="58" selection-end-line="89" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/render.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="77" column="61" lean-forward="true" selection-start-line="77" selection-start-column="61" selection-end-line="77" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/activity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" lean-forward="true" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="270">
+          <caret line="18" column="23" lean-forward="true" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="200" column="31" lean-forward="true" selection-start-line="200" selection-start-column="31" selection-end-line="200" selection-end-column="31" />
+        <state relative-caret-position="387">
+          <caret line="172" column="8" selection-start-line="172" selection-start-column="8" selection-end-line="172" selection-end-column="8" />
         </state>
       </provider>
     </entry>

@@ -102,6 +102,7 @@
                         <div class="hint">
                             <div>
                                 <div class="text">
+                                    <p>温馨小提示：</p>
                                     <p>1. 温馨提示一温馨提示一温馨提示一温馨提示一温馨提示一温馨提示一温馨提示一温馨提示一温馨提示一温馨提示一温馨提示一温馨提示一温馨提示一</p>
                                     <p>2. 温习提示二温习提示二温习提示二温习提示二温习提示二温习提示二温习提示二温习提示二温习提示二温习提示二温习提示二温习提示二温习提示二</p>
                                     <p>3. 温馨提示三温馨提示三温馨提示三温馨提示三温馨提示三温馨提示三温馨提示三温馨提示三温馨提示三温馨提示三温馨提示三温馨提示三温馨提示三</p>
@@ -153,19 +154,19 @@
 
         <div id="happyTime">
             <div class="content">
-                <p class="more"><a href="#">更多>></a></p>
+                <div></div>
+                <script id="happyTimeText" type="text/html">
+                <p class="more"><a href="link/activity/main.html">更多>></a></p>
                 <div class="pic">
                     <div class="contentPic">
-                        <img src="img/photo.jpg" />
-                        <img src="img/photo.jpg" />
-                        <img src="img/photo.jpg" />
-                        <img src="img/photo.jpg" />
-                        <img src="img/photo.jpg" />
-                        <img src="img/photo.jpg" />
+                        <%for(let i=0; i<6; i++){%>
+                        <a href="link/activity/<%:=activity[i].url%>"><img src="link/activity/<%:=activity[i].titleImg%>" alt="<%:=activity[i].title%>"/></a>
+                        <%}%>
                         <div class="prev"><span></span></div>
                         <div class="next"><span></span></div>
                     </div>
                 </div>
+                </script>
             </div>
         </div>
 

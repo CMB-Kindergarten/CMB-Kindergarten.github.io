@@ -6,7 +6,8 @@ addEvent(window, 'load', window_onLoad);
 function window_onLoad(){
     moveTopImg();
     //moveTopText();            //已用CSS3-animation控制
-    moveHappyTimeImg();
+    setTimeout(moveHappyTimeImg);   //异步操作，模板引擎渲染结束再执行
+
 }
 
 

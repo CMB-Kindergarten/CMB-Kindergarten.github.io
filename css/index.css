@@ -5,10 +5,10 @@
 
 #remarks{width:281px; height:320px; background:url("pic/remarks.jpg"); }
 #remarks .content{width:240px; padding:15px 20px; }
-#remarks h2{color:#ff8100; }
+#remarks h2{color:#ff8100; font-size:24px; padding-bottom:4px; }
 #remarks .top{padding-left:20px; }
 #remarks .top img{float:left; height:80px; width:80px; }
-#remarks .top ul{float:left; color:#ff7a00; padding-left:20px; line-height:24px; }
+#remarks .top ul{float:left; color:#ff7a00; padding-left:20px; line-height:24px; font-size:14px; }
 #remarks .bottom{height:129px; background:url("pic/remarks_bottom_bg.jpg"); padding:40px 0 0 24px; line-height:24px; font-size:12px; color:#107310; }
 
 
@@ -35,15 +35,16 @@
 #prompt .right{float:right; width:290px; }
 #prompt .hint{padding:70px 40px 0 0; }
 #prompt .hint > div{height:75px; overflow:hidden; }
-#prompt .hint .text{position:relative; animation: moveTopText 15s linear infinite; }
+#prompt .hint .text{position:relative; animation: moveTopText 15s linear infinite; font-size:12px; line-height:20px; }
+#prompt .hint .text p{padding-bottom:5px;}
 #prompt .hint .text:hover{animation-play-state:paused; }
 @keyframes moveTopText {
     0%{top:75px; }
-    to{top:-550px; }
+    to{top:-450px; }
 }
 #prompt .hint p{text-indent:2em; }
 #prompt .class{padding-top:54px; }
-#prompt .class li{background:url("pic/mashroom.png") 3px 3px no-repeat; line-height:26px; text-indent:35px; }
+#prompt .class li{background:url("pic/mashroom.png") 3px 3px no-repeat; line-height:26px; text-indent:35px; font-size:14px; }
 
 
 #activity{width:682px; height:249px; padding-top:36px; background:url("pic/activity.jpg") no-repeat; margin-top:22px; }
@@ -73,10 +74,11 @@
 #happyTime .more a:hover{text-decoration:underline; }
 #happyTime .pic{padding-left:26px; width:800px; padding-top:10px; }
 #happyTime .contentPic{position:relative; height:195px; overflow:hidden; }
+#happyTime .contentPic a{display:block; }
 #happyTime .contentPic img{height:195px; float:left; width:260px; margin-right:10px; position:absolute; left:810px; }
-#happyTime .contentPic img:nth-child(1){left:0; }
-#happyTime .contentPic img:nth-child(2){left:270px; }
-#happyTime .contentPic img:nth-child(3){left:540px; }
+#happyTime .contentPic a:nth-child(1) img{left:0; }
+#happyTime .contentPic a:nth-child(2) img{left:270px; }
+#happyTime .contentPic a:nth-child(3) img{left:540px; }
 #happyTime .prev{position:absolute; cursor:pointer; width:20px; height:100%; left:0; background:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7), rgba(0,0,0,0.2)); }
 #happyTime .next{position:absolute; cursor:pointer; width:20px; height:100%; right:0; background:linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7), rgba(0,0,0,0.2)); }
 #happyTime .prev span{display:block; height:100%; background:url("pic/prev.png") center center no-repeat; opacity:0.5; }
