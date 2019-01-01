@@ -171,6 +171,9 @@ function renderFn(){
 
 function mouseOverClearTimer(obj, timer, fn, times){     //鼠标移入清除定时器
     obj.onmouseover = clearInterval.bind(null,[timer]);
+    /*obj.onmouseover = function(){
+        clearInterval(timer);
+    };*/
     obj.onmouseout = function(){
         clearInterval(timer);
         timer = setInterval(fn, times);

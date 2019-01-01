@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67313a7a-b665-4f41-91dc-1ce229d2e373" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +23,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="278">
-                  <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+                <state relative-caret-position="321">
+                  <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
                 </state>
               </provider>
             </entry>
@@ -40,14 +42,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="77">
-                  <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
+                <state relative-caret-position="242">
+                  <caret line="154" column="3" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
                   <folding>
                     <element signature="n#!!block;n#moveTopImg#0" />
+                    <element signature="n#!!block;n#moveHappyTimeImg#0" />
+                    <element signature="n#!!block;n#cssDoMove#0" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="public.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/css/public.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
                 </state>
               </provider>
             </entry>
@@ -129,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/link/care/detail/20181202/detail.html" />
         <option value="$PROJECT_DIR$/link/care/detail/20181203/detail.html" />
         <option value="$PROJECT_DIR$/link/care/detail/20181204/detail.html" />
         <option value="$PROJECT_DIR$/link/care/detail/20181205/detail.html" />
@@ -168,7 +180,6 @@
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/js/render.js" />
         <option value="$PROJECT_DIR$/js/public.js" />
-        <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/link/activity/main.html" />
         <option value="$PROJECT_DIR$/link/activity/detail/20181201/detail.html" />
         <option value="$PROJECT_DIR$/link/care/main.html" />
@@ -179,6 +190,8 @@
         <option value="$PROJECT_DIR$/link/recipe/detail/20181201/detail.html" />
         <option value="$PROJECT_DIR$/link/admission.html" />
         <option value="$PROJECT_DIR$/link/message.html" />
+        <option value="$PROJECT_DIR$/js/index.js" />
+        <option value="$PROJECT_DIR$/css/public.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -225,6 +238,11 @@
               <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="link" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -275,12 +293,12 @@
       <workItem from="1545843030591" duration="35963000" />
       <workItem from="1545924984555" duration="15076000" />
       <workItem from="1545979300553" duration="24172000" />
-      <workItem from="1546150376139" duration="6157000" />
+      <workItem from="1546150376139" duration="8903000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167130000" />
+    <option name="totallyTimeSpent" value="169876000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -293,8 +311,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16420014" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15715292" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -302,7 +321,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917705" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23441397" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23441397" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -523,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/public.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/activity.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -553,16 +565,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/public.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="149" column="21" selection-start-line="149" selection-start-column="21" selection-end-line="149" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!block;n#moveTopImg#0" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/link/activity/main.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -618,23 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/link/message.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/introduce.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/admission.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181201/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -649,10 +634,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/link/admission.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="66" column="12" selection-start-line="66" selection-start-column="12" selection-end-line="66" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link/introduce.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link/message.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="73" column="10" selection-start-line="73" selection-start-column="10" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="154" column="3" selection-start-line="154" selection-start-column="3" selection-end-line="154" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!block;n#moveTopImg#0" />
+            <element signature="n#!!block;n#moveHappyTimeImg#0" />
+            <element signature="n#!!block;n#cssDoMove#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/public.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="47" lean-forward="true" selection-start-line="27" selection-start-column="47" selection-end-line="27" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
+        <state relative-caret-position="321">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="44" selection-end-line="37" selection-end-column="44" />
         </state>
       </provider>
     </entry>
