@@ -2,114 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67313a7a-b665-4f41-91dc-1ce229d2e373" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01141.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01142.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01143.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01144.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01145.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01151.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01152.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01153.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01154.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01155.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01161.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01162.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01163.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01164.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01165.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01171.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01172.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01173.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01174.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01175.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01181.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01182.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01183.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01184.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/img/01185.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01211.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01212.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01213.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01214.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01215.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01221.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01222.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01223.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01224.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01225.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01231.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01232.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01233.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01234.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01235.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01241.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01242.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01243.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01244.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01245.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01251.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01252.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01253.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01254.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/img/01255.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/link/recipe/showPic.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/recipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12021.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12022.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12031.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12032.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12033.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12034.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12035.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12041.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12043.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12044.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12045.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12051.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12052.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181215/img/12055.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12011.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12012.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12013.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12014.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12015.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12021.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12022.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12023.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12024.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12025.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12031.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12032.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12033.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12034.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12035.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12041.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12042.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12043.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12044.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12045.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12051.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12052.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12053.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12054.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20181222/img/12055.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/recipeDetial.css" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/recipeDetial.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/recipe/showPic.js" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/showPic.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -155,7 +49,7 @@
           <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190121/detail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="309">
+                <state relative-caret-position="380">
                   <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
                 </state>
               </provider>
@@ -174,11 +68,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="recipe.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="recipe.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/db/recipe.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="190">
-                  <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
+                <state relative-caret-position="672">
+                  <caret line="185" column="22" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -201,11 +95,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="showPic.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="showPic.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/link/recipe/showPic.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="174">
-                  <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+                <state relative-caret-position="420">
+                  <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -331,13 +225,13 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20181215/detail.html" />
-        <option value="$PROJECT_DIR$/db/recipe.js" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" />
         <option value="$PROJECT_DIR$/link/recipe/detail/recipeDetial.css" />
-        <option value="$PROJECT_DIR$/link/recipe/showPic.js" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20190114/detail.html" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20190121/detail.html" />
+        <option value="$PROJECT_DIR$/link/recipe/showPic.js" />
+        <option value="$PROJECT_DIR$/db/recipe.js" />
       </list>
     </option>
   </component>
@@ -485,12 +379,12 @@
       <workItem from="1545979300553" duration="24172000" />
       <workItem from="1546150376139" duration="12754000" />
       <workItem from="1546398882648" duration="6000" />
-      <workItem from="1546399003659" duration="14892000" />
+      <workItem from="1546399003659" duration="16215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188625000" />
+    <option name="totallyTimeSpent" value="189948000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -505,14 +399,14 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16138126" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16138126" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32917705" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32917705" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23441397" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23690774" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -775,13 +669,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/recipe.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="121" column="26" selection-start-line="121" selection-start-column="26" selection-end-line="121" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/public.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -793,13 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="114" selection-start-line="3" selection-start-column="114" selection-end-line="3" selection-end-column="114" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/showPic.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -826,8 +706,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190121/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
+        <state relative-caret-position="380">
           <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/showPic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/recipe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="185" column="22" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
         </state>
       </provider>
     </entry>

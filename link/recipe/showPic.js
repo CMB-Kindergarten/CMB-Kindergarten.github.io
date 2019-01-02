@@ -2,16 +2,7 @@ window.onload = function(){
     const aImg = document.querySelectorAll('#content table img');
     const filter = document.querySelector('.filter');
     const showImg = document.createElement('img');
-
-
     document.body.appendChild(showImg);
-
-
-
-
-
-
-
     for(let i=0; i<aImg.length; i++){
         aImg[i].onclick = function(){
             showImg.src = this.src;
@@ -36,9 +27,6 @@ window.onload = function(){
         }
     }
 };
-
-
-
 function getStyle(obj,attr){
     return obj.currentStyle ? obj.currentStyle[attr] : getComputedStyle(obj)[attr];
 }
