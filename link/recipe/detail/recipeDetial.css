@@ -9,5 +9,5 @@ tr:first-child{background:#fff6b4; color:#ff7500; }
 tr:first-child th{height:40px; border-right:1px solid #e9e3d2; }
 td{border-right:1px solid #e9e3d2; padding:0 5px; }
 table div{padding-top:10px; }
-table img{width:160px; }
+table img{width:160px; height:120px; }
 table p{text-align:center; padding:5px 0; }
