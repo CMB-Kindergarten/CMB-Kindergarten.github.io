@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67313a7a-b665-4f41-91dc-1ce229d2e373" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/db/recipe.js" beforeDir="false" afterPath="$PROJECT_DIR$/db/recipe.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/showPic.js" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/showPic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190114/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190121/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/detail.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,44 +24,17 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-634">
+                <state relative-caret-position="-2194">
                   <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190107/detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="114">
-                  <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190114/detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="324">
-                  <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190121/detail.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="380">
-                  <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190102/detail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="294">
-                  <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
+                <state relative-caret-position="378">
+                  <caret line="100" column="37" lean-forward="true" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
                 </state>
               </provider>
             </entry>
@@ -71,8 +46,8 @@
           <file leaf-file-name="recipe.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/db/recipe.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="185" column="22" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+                <state relative-caret-position="357">
+                  <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -225,13 +200,13 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/index.css" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20181215/detail.html" />
-        <option value="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" />
         <option value="$PROJECT_DIR$/link/recipe/detail/recipeDetial.css" />
-        <option value="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" />
-        <option value="$PROJECT_DIR$/link/recipe/detail/20190114/detail.html" />
-        <option value="$PROJECT_DIR$/link/recipe/detail/20190121/detail.html" />
         <option value="$PROJECT_DIR$/link/recipe/showPic.js" />
         <option value="$PROJECT_DIR$/db/recipe.js" />
+        <option value="$PROJECT_DIR$/link/recipe/detail/20190121/detail.html" />
+        <option value="$PROJECT_DIR$/link/recipe/detail/20190114/detail.html" />
+        <option value="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" />
+        <option value="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" />
       </list>
     </option>
   </component>
@@ -284,51 +259,6 @@
               <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="link" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-              <item name="20190102" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-              <item name="20190107" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-              <item name="20190114" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="link" type="462c0819:PsiDirectoryNode" />
-              <item name="recipe" type="462c0819:PsiDirectoryNode" />
-              <item name="detail" type="462c0819:PsiDirectoryNode" />
-              <item name="20190121" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -379,12 +309,12 @@
       <workItem from="1545979300553" duration="24172000" />
       <workItem from="1546150376139" duration="12754000" />
       <workItem from="1546398882648" duration="6000" />
-      <workItem from="1546399003659" duration="16215000" />
+      <workItem from="1546399003659" duration="17199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="189948000" />
+    <option name="totallyTimeSpent" value="190932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-634">
-          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-73">
@@ -683,34 +606,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190102/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="96" lean-forward="true" selection-start-line="96" selection-end-line="96" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190107/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190114/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="98" column="26" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190121/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="97" column="26" selection-start-line="97" selection-start-column="26" selection-end-line="97" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/link/recipe/showPic.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="420">
@@ -718,10 +613,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190121/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="104" column="86" selection-start-line="104" selection-start-column="86" selection-end-line="104" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190114/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="104" column="86" selection-start-line="104" selection-start-column="86" selection-end-line="104" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190107/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="103" column="86" selection-start-line="103" selection-start-column="86" selection-end-line="103" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2194">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190102/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="100" column="37" lean-forward="true" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/db/recipe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="185" column="22" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+        <state relative-caret-position="357">
+          <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
         </state>
       </provider>
     </entry>
