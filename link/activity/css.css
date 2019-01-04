@@ -1,7 +1,8 @@
 #content .substance{width:650px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; }
 #content .substance > div{width:300px; margin:10px 0; text-align:center; }
 #content .substance > div > a{display:block; }
-#content .substance > div img{width:300px; }
+#content .substance > div .ingWrap{overflow:hidden; height:225px; position:relative; }
+#content .substance > div img{width:300px; position:absolute; left:0; top:0; /*transition:1s;*/ }
 #content .substance > div p{text-align:center; font-size:16px; padding-top:10px; white-space:nowrap;  overflow:hidden; text-overflow:ellipsis; }
 #content .substance > div a{color:#666; }
 #content .substance > div a:hover{color:#992d2c; text-decoration:underline; }

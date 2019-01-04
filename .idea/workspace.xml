@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67313a7a-b665-4f41-91dc-1ce229d2e373" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190114/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190114/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/link/recipe/detail/20190121/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/recipe/detail/20190121/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/activity/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/link/activity/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/link/activity/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/link/activity/main.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -24,17 +23,26 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-2194">
+                <state relative-caret-position="945">
                   <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="detail.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="detail.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190102/detail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="378">
-                  <caret line="100" column="37" lean-forward="true" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+                <state relative-caret-position="348">
+                  <caret line="98" column="26" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/link/activity/main.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="483">
+                  <caret line="200" column="18" lean-forward="true" selection-start-line="200" selection-start-column="18" selection-end-line="200" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -43,11 +51,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="recipe.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="recipe.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/db/recipe.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="357">
-                  <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
+                <state relative-caret-position="312">
+                  <caret line="161" column="33" lean-forward="true" selection-start-line="161" selection-start-column="33" selection-end-line="161" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="css.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/link/activity/css.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="60">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
                 </state>
               </provider>
             </entry>
@@ -156,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/link/care/detail/20181212/detail.html" />
         <option value="$PROJECT_DIR$/link/care/detail/20181213/detail.html" />
         <option value="$PROJECT_DIR$/link/care/detail/20181214/detail.html" />
         <option value="$PROJECT_DIR$/link/care/detail/20181215/detail.html" />
@@ -181,7 +197,6 @@
         <option value="$PROJECT_DIR$/db/activity.js" />
         <option value="$PROJECT_DIR$/js/render.js" />
         <option value="$PROJECT_DIR$/js/public.js" />
-        <option value="$PROJECT_DIR$/link/activity/main.html" />
         <option value="$PROJECT_DIR$/link/activity/detail/20181201/detail.html" />
         <option value="$PROJECT_DIR$/link/care/main.html" />
         <option value="$PROJECT_DIR$/link/care/detail/20181201/detail.html" />
@@ -207,6 +222,8 @@
         <option value="$PROJECT_DIR$/link/recipe/detail/20190114/detail.html" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20190107/detail.html" />
         <option value="$PROJECT_DIR$/link/recipe/detail/20190102/detail.html" />
+        <option value="$PROJECT_DIR$/link/activity/main.html" />
+        <option value="$PROJECT_DIR$/link/activity/css.css" />
       </list>
     </option>
   </component>
@@ -219,7 +236,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -258,6 +275,12 @@
               <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="link" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CMB-Kindergarten.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CMB-Kindergarten.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="link" type="462c0819:PsiDirectoryNode" />
+              <item name="activity" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -310,11 +333,13 @@
       <workItem from="1546150376139" duration="12754000" />
       <workItem from="1546398882648" duration="6000" />
       <workItem from="1546399003659" duration="17199000" />
+      <workItem from="1546623031337" duration="34000" />
+      <workItem from="1546624179336" duration="2298000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="190932000" />
+    <option name="totallyTimeSpent" value="193264000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +351,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16138126" />
@@ -361,13 +386,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/link/activity/detail/20181206/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/link/home/detail/20181202/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -422,13 +440,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181203/detail.html" />
     <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181202/detail.html" />
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181222/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="100" column="24" selection-start-line="100" selection-start-column="24" selection-end-line="100" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181222/detail.html" />
     <entry file="file://$PROJECT_DIR$/db/care.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -445,13 +457,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/render.js" />
     <entry file="file://$PROJECT_DIR$/js/public.js" />
-    <entry file="file://$PROJECT_DIR$/link/activity/main.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/link/activity/detail/20181201/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -494,13 +499,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181201/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181201/detail.html" />
     <entry file="file://$PROJECT_DIR$/CNAME" />
     <entry file="file://$PROJECT_DIR$/link/admission.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -546,23 +545,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../CMB-Kindergarten.github.io改布局.io/link/introduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../CMB-Kindergarten.github.io改布局.io/link/introduce.html" />
     <entry file="file://$PROJECT_DIR$/link/css/introduce.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../改布局/link/introduce.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../改布局/link/introduce.html" />
     <entry file="file://$PROJECT_DIR$/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -570,25 +557,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181208/detail.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181215/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="107" column="7" selection-start-line="107" selection-start-column="7" selection-end-line="107" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181208/detail.html" />
+    <entry file="file://$PROJECT_DIR$/link/recipe/detail/20181215/detail.html" />
     <entry file="file://$PROJECT_DIR$/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-73">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="n#!!block;n#moveTopImg#0" />
-            <element signature="n#!!block;n#moveHappyTimeImg#0" />
-            <element signature="n#!!block;n#cssDoMove#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -636,22 +610,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2194">
+        <state relative-caret-position="945">
           <caret line="63" column="32" selection-start-line="63" selection-start-column="32" selection-end-line="63" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/link/recipe/detail/20190102/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="100" column="37" lean-forward="true" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="37" />
+        <state relative-caret-position="348">
+          <caret line="98" column="26" lean-forward="true" selection-start-line="98" selection-start-column="26" selection-end-line="98" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/db/recipe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="164" column="13" selection-start-line="164" selection-start-column="13" selection-end-line="164" selection-end-column="13" />
+        <state relative-caret-position="312">
+          <caret line="161" column="33" lean-forward="true" selection-start-line="161" selection-start-column="33" selection-end-line="161" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link/activity/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="200" column="18" lean-forward="true" selection-start-line="200" selection-start-column="18" selection-end-line="200" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/link/activity/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>

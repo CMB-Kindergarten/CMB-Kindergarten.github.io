@@ -51,7 +51,7 @@
                 <div class="substance">
                     <% if(now !== page){for(let i = (now-1)*len; i<(now-1)*len+len; i++){%>
                         <div>
-                            <a href="<%=activity[i].url%>"><img src="<%=activity[i].titleImg%>" alt="<%=activity[i].title%>"/></a>
+                            <a href="<%=activity[i].url%>"><div class="ingWrap"><img src="<%=activity[i].titleImg%>" alt="<%=activity[i].title%>"/></div></a>
                             <p><a href="<%=activity[i].url%>"><%=i+1%>.<%=activity[i].title%></a></p>
                         </div>
                     <%}}else{for(let i=(now-1)*len; i<activity.length; i++){%>
@@ -170,6 +170,38 @@
             turnPageNext();
         }
     }
+
+    let aImg = document.querySelectorAll('#content .substance > div img');
+
+    for(let i=0; i<aImg.length; i++){
+        aImg[i].top = 0;
+        aImg[i].left = 0;
+        aImg[i].onmouseover = function(){
+            let _this = this;
+            clearInterval(_this.timer);
+            _this.timer = setInterval(function(){
+                _this.top -= 1;
+                _this.left -= 0.75;
+                _this.style.width = parseInt(_this.width)+2+ 'px';
+                _this.style.top = _this.top+'px';
+                _this.style.left = _this.left+'px';
+                if(parseInt(_this.style.width) >= 390) clearInterval(_this.timer);
+            }, 14)
+        };
+        aImg[i].onmouseout = function(){
+            let _this = this;
+            clearInterval(_this.timer);
+            _this.timer = setInterval(function(){
+                _this.top += 1;
+                _this.left += 0.75;
+                _this.style.width = parseInt(_this.width)-2+ 'px';
+                _this.style.top = _this.top+'px';
+                _this.style.left = _this.left+'px';
+                if(parseInt(_this.style.width) <= 300) clearInterval(_this.timer);
+            }, 14)
+        }
+    }
+
 </script>
 </body>
 </html>
