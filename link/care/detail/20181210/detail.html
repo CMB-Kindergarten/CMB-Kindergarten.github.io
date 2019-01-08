@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <style>
+        #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
+        #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text h3{color:#333; font-size:16px; padding-bottom:10px; }
+        #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:20px; }
+        #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
+    </style>
+</head>
+<body>
+
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../../activity/main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">幼儿保健</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+                    <div class="content">
+                        <h2><%=entry.title%></h2>
+                        <h3>1.什么是手口足病？</h3>
+                        <p>这是一种发生在小年龄托班小班（4岁以内）幼儿多见的空气传播的传染病一般传染病，年长儿及成人也感染，但一般症状较轻，或为无症状的隐性感染。在托幼机构内容易发生流行。</p>
+                        <p>此病主要表现为口腔炎及位于手足之皮疹，手足口病的临床上首先表现为口痛、厌食及低热（38度），亦可不发热。口腔内可见散发性小疱疹或溃疡，位于舌、颊粘膜及硬腭处。四肢，尤以手足部可见斑丘疹或疱疹，数量多少不定。病程短，多于1周左右痊愈。皮疹发展很快，痊愈后不留疤，不痒不痛，不流脓，成簇状出现个别患者可引起肺炎、心肌炎、肺水肿、无菌性脑膜脑炎等致命性并发症。</p>
+                        <h3>2、手足口病通过哪些途径传播？</h3>
+                        <p>可通过鼻涕、唾液、粪便、共用玩具等传染。人群间的密切接触，既通过直接接触病人或无症状带菌者的鼻和咽喉分泌物及粪便而感染，也可通过飞沫传播。</p>
+                        <h3>3、手足口病的潜伏期是多少？</h3>
+                        <p>一般为3~6天，平均4天。</p>
+                        <h3>4、手足口病患儿多久可来幼儿园？</h3>
+                        <p>病程通常一周左右，愈后良好，到幼儿的疱疹全部干燥结痂，到医院取得医生的痊愈证明即可返园</p>
+                        <h3>5、接触过手足口病患儿的幼儿要医学观察多久？</h3>
+                        <p>7天（5~10天）</p>
+                        <h3>6、发生手足口病如何护理？</h3>
+                        <p>手口足病没有特效药，对症治疗有发烧进行退热，服用板兰根冲剂，清热解毒口服液，桂林西瓜霜口腔治疗溃疡。幼儿穿宽松透气的鞋袜，多洗手保持清洁，饮食上可以吃些绿豆薏苡仁粥，或是山药米仁赤豆粥，起到清热利湿健脾利湿的作用。</p>
+                        <h3>7、手足口病的预防办法有那些？</h3>
+                        <p>1、注意环境和个人卫生可以减少感染机会。尤其是小孩子，一定要养成良好的卫生习惯，不要舔手、咬指甲。从公共场所回家后要洗手、洗脸、换衣服。饭前便后肥皂流动水洗手。</p>
+                        <p>2、在疾病流行时，请大家尽量减少带孩子去公共场所和人群密集的地方，以减少感染机会。</p>
+                        <p>3、居室要经常开窗通风，彻底换气，保持室内空气新鲜清洁。总之：幼儿要养成良好的生活习惯早睡早起，不要挑食偏食，多吃蔬菜水果。勤洗手，多运动多户外活动晒太阳。</p>
+                        <p>4、幼儿园内加强晨间检查及早发现手口足病做好早隔离早报告早预防。</p>
+                        <p>5、对家长早做健康教育。</p>
+                        <p>预防手足口病必须注意个人卫生，要注意居室内空气流通、温度适宜，多饮白开水或清凉饮料，多吃新鲜蔬菜和瓜果；经常彻底清洗儿童的玩具或其他用品。在手足口病流行时，家长尽量少让孩子到拥挤的公共场所，减少被感染机会。此外，家长还要注意幼儿的营养、休息，避免日光曝晒，防止过度疲劳，降低了抵抗力。</p>
+                        <p>此病传染性强、传播途径复杂、流行强度大。病毒可通过唾液飞沫，经鼻腔、口腔传染给健康儿童，也可因直接接触而传染。因此病童应留在家中，直至热度和红疹消退以及所有水疱结痂后持医生返园证明方可回幼儿园。</p>
+                        <p>重点提示：家长如发现孩子口腔内有溃疡面、手足有溃疡面或者红疹、发热、出疹等现象，要早隔离、早报告、早治疗，要如实向幼儿园报告病情，不得隐瞒不报。</p>
+                        <p class="time"><%=entry.time%></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20181210;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
+    document.title = template(document.querySelector('#titleText').innerHTML, care);
+
+
+
+</script>
+</body>
+</html>

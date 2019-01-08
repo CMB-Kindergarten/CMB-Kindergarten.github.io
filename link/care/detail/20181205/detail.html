@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <style>
+        #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
+        #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text h3{color:#333; font-size:16px; padding-bottom:10px; }
+        #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:20px; }
+        #content .text .hand{padding-bottom:10px; }
+        #content .text .hand p{padding:0; color:#333; }
+        #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
+    </style>
+</head>
+<body>
+
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../../activity/main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">幼儿保健</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+                    <div class="content">
+                        <h2><%=entry.title%></h2>
+                        <p>冬季来临，政教处结合学校实际开展预防流感等呼吸道传染病的宣传活动。各级部、班主任要切实做好学生的健康知识和习惯的宣传，教育学生了解呼吸道传染病的相关知识，增强自我防病意识，养成良好的卫生习惯。</p>
+                        <h3>一、冬季传染病相关知识</h3>
+                        <p>1.冬季是呼吸道传染病高发季节，几种常见呼吸道传染病有：流行性感冒、麻疹、水痘、风疹、流行性脑脊髓膜炎（流脑）、肺炎和肺结核等。其中由流感病毒引起的流行性感冒，具有很强的传染性，其发病率占传染病之首位。</p>
+                        <p>2.呼吸道传染病临床表现的共性为：发热，乏力，头痛，咳嗽，流涕等上呼吸道卡他症状（包括咳嗽、流涕、打喷嚏、鼻塞等症状）。     </p>
+                        <p>3.呼吸道传染病的传播途径：呼吸道传染病主要通过空气中的飞沫、尘埃进行传播。病人在讲话、咳嗽、打喷嚏时可以从鼻咽部喷出大量的含有病原体的黏液飞沫悬浮于空气中，被易感者吸入，即可造成传染，也可形成大面积流行。</p>
+                        <h3>二、主要预防措施及健康习惯</h3>
+                        <p>1.注意防寒保暖，随时增减衣物，避免受凉。人体受凉时，呼吸道血管收缩，血液循环减少，局部抵抗力下降，病毒容易侵入。</p>
+                        <p>2.多喝水。冬季气候干燥，空气中尘埃含量高，人体鼻黏膜容易受损，要多喝水，让鼻黏膜保持湿润，能有效抵御病毒的入侵，还有利于体内毒素排泄，净化体内环境。</p>
+                        <p>3.勤洗手、科学洗手。呼吸道传染病患者的鼻涕、痰液等呼吸道分泌物中含有大量的病原，有可能通过手接触分泌物，传染给健康人，因此特别强调注意手的卫生。</p>
+                        <p>掌握六步洗手法：</p>
+                        <div class="hand">
+                            <p>第一步：掌心相对，手指并拢，相互揉搓；</p>
+                            <p>第二步：手心对手背沿指缝相互揉搓，交换进行；</p>
+                            <p>第三步：掌心相对，双手交叉指缝相互揉搓；</p>
+                            <p>第四步：弯曲手指使关节在另一手掌心旋转揉搓；</p>
+                            <p>第五步：右手握住左手大拇指旋转揉搓；</p>
+                            <p>第六步：将手指尖并拢放在另一手掌心旋转揉搓。</p>
+                        </div>
+                        <p>4.文明咳嗽、不随地吐痰。打喷嚏或咳嗽时用清洁的手绢或纸巾遮掩口鼻；若一时来不及拿纸巾遮掩，可用手肘弯的衣服遮挡口鼻，因为病毒不容易在干燥的衣服上停留；打喷嚏或咳嗽时，千万不能用手遮掩口鼻；吐痰时，痰液用纸巾包好，弃置垃圾桶。</p>
+                        <p>5.学习、生活环境开窗通风，勤晒被褥，清除卫生死角。良好的通风可消除80%自然菌，所以自然通风换气保持空气新鲜至关重要。教室在每节课后开窗通风，保持室内空气清新，其他教学生活用房应每天开窗通风2-3次，每次30分钟以上，尤其是寝室，在离开时一定要把门窗打开，让阳光充分照射。</p>
+                        <p>6.养成良好的生活规律，保持充足的睡眠，适量运动，平衡膳食。保证充足睡眠，防止过度的紧张和疲劳使身体抵抗力下降;注意日常体质锻炼，提高身体的免疫力和抵抗力，增强对外界环境的适应能力；注意饮食、饮水卫生，少吃煎、炸、烘、烤食物，多食用富含维生素C的蔬果及奶制品等富含蛋白质食物。尽量不到卫生条件差，没有消毒设施的路边摊、小餐馆用餐。</p>
+                        <p>7.免疫预防。流行季节前可进行相应的预防接种，如流感、肺炎、麻疹、流脑等。</p>
+                        <p>8.疾病流行季节,尽量减少到人多的公共场所,更不要到传染病患者聚集的场所。</p>
+                        <p>9.早发现、早治疗。如遇身体不适请及时就医检查，出现呼吸道及消化道症状时应及时就诊,切忌不当回事,更不能自行服药。如发现流行病患者应早报告、早隔离、防止校园内传播。</p>
+                        <p>10.患呼吸道传染病的学生痊愈时，应开具有效的医学证明方可返校。</p>
+                        <p class="time"><%=entry.time%></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20181205;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
+    document.title = template(document.querySelector('#titleText').innerHTML, care);
+
+
+
+</script>
+</body>
+</html>

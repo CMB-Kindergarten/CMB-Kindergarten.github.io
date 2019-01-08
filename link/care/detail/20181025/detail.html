@@ -17,10 +17,9 @@
     <style>
         #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
         #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text h3{color:#333; font-size:16px; padding-bottom:10px; }
         #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:20px; }
         #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
-        #content .text .left{text-indent:0; font-weight:bold; color:#000; }
-
     </style>
 </head>
 <body>
@@ -66,14 +65,19 @@
                     <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
                     <div class="content">
                         <h2><%=entry.title%></h2>
-                        <p>诺如病毒感染性腹泻是由诺如病毒属病毒引起的一种肠道传染病，具有发病急、传播速度快、涉及范围广等特点，是引起非细菌性腹泻暴发的主要病因。诺如病毒感染性强，以肠道传播为主，可通过污染的水源、食物、物品、空气等传播，常在社区、学校、餐馆、医院、托儿所等处引起集体暴发。感染对象主要是成人和青少年学生，寒冷季节呈现高发。 诺如病毒感染后的潜伏期比较短，多在 24-48 小时内发病，主要症状为恶心、呕吐、腹痛和腹泻。儿童患者呕吐普遍，成人患者腹泻为多。诺如病毒引起的胃肠道疾病属于自限性疾病，病程 12-60小时。目前尚无特效的抗病毒药物，以对症和支持治疗为主，一般不需要抗菌素，预后良好。严重病例尤其是幼儿及体弱者应及时输液或口服补液，以纠正脱水、酸中毒及电解质紊乱。 </p>
-                        <p class="left">具体预防措施：</p>
-                        <p>1. 养成良好的个人卫生习惯，饭前便后应洗净双手； </p>
-                        <p>2. 食物(尤其是海水产品)要经过煮熟后再进食； </p>
-                        <p>3. 做好家庭环境卫生，经常开窗通风、衣被多勤洗晒； </p>
-                        <p>4. 如果家庭有人出现呕吐或腹泻症状，应及时前往医院就诊； </p>
-                        <p>5. 患病期间应在家休息，避免与人接触，防止传播给他人； </p>
-                        <p>6. 患者的呕吐物或粪便应进行消毒处理。</p>
+                        <p>一、配合保健教师对肥胖儿的管理，建立班级全日观察制度。</p>
+                        <p>二、 控制米面、甜点心，因肥胖儿进食量大，给予适当控制，减少饭量不能突然减一碗，只能少量逐周递减，鼓励幼儿多吃蔬菜，要吃足应得量。</p>
+                        <p>三、 坚持每日午餐后锻炼半小时，坚持餐后散步。</p>
+                        <p>四、肥肉少吃，荤菜量要保证，纠正偏食。</p>
+                        <p>五、做幼儿家长工作，在家自觉控制甜点心、饮料、膨化食品等，进食不要过量。</p>
+                        <p>六、餐前先喝一碗菜，增加饱腹感，督促幼儿细嚼慢咽，进餐时间不少于20分钟。</p>
+                        <p>七、肥胖儿要注重体格锻炼，尤其是餐后锻炼，活动前后要喝水，增减衣服。餐前1小时不要锻炼，以防低血糖。运动中注意幼儿出汗、呼吸情况。</p>
+                        <p>八、改变喜荤厌素，爱静不爱动，进餐速度快等不良行为习惯。</p>
+                        <p>九、幼儿年龄小，家长带来的零食给予退回，幼儿哭闹时不要用糖果、零食哄他。园内甜点心吃完应得量，不予再添。</p>
+                        <p>十、不在小朋友面前随意呼唤幼儿“小胖子”，不要随意去用手捏幼儿肥胖部位，鼓励幼儿积极参加集体活动。</p>
+                        <p>十一、督促肥胖儿养成每日定期排便的习惯，改变肥胖幼儿的睡眠情况，如鼾声、出汗、睡眠质量、时间等。</p>
+                        <p>十二、定期与家长交流，共同配合。</p>
+                        <p>十三、禁止使用下列手段减肥：饥饿疗法、快速减重、反复多次减重、服药减肥、只吃蔬菜减肥。  </p>
                         <p class="time"><%=entry.time%></p>
                     </div>
                 </script>
@@ -103,7 +107,7 @@
 <script>
     //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
     //每次用js传入当前页信息id，从数据中动态筛选
-    window.id = 20180310;
+    window.id = 20181025;
     document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
     document.title = template(document.querySelector('#titleText').innerHTML, care);
 

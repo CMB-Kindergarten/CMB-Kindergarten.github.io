@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <style>
+        #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
+        #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text h3{color:#333; font-size:16px; padding-bottom:10px; }
+        #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:20px; }
+        #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
+    </style>
+</head>
+<body>
+
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../../activity/main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">幼儿保健</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+                    <div class="content">
+                        <h2><%=entry.title%></h2>
+                        <p>进入秋季，气温变化比较大，秋季正处于夏季和冬季之间，夏季和冬季的传染病都有可能在秋季发生，所以说秋季也是多种传染病的高发季节。初秋时，气温较高，即“秋老虎”天,一些肠道传染病和虫媒传染病高发，甚至可能爆发流行；到了晚秋，气温逐渐下降，风大干燥，这时是一些呼吸道传染病的高发时节。因此，秋季加强传染病的防治，对维护身体健康具有重要意义。 一般秋季常见传染病可分为两大类：肠道传染病、呼吸道传染病</p>
+                        <h3>秋季常见的肠道传染病  </h3>
+                        <p>秋季常见的肠道传染病有霍乱、伤寒、副伤寒、痢疾、轮状病毒引起的感染性腹泻等。这类传染病经“粪 —— 口”途径传播，是“吃进去”的传染病，通常是由于细菌或病毒污染了手、饮水餐具或食物等，未经过恰当的处理，吃进去后发病。</p>
+                        <p>1. 霍乱  是由霍乱弧菌引起的急性肠道传染病，属于国际检疫传染病之一，也是我国法定管理的甲类传染病。发病急，传播快，可引起流行、爆发和大流行。夏秋季为流行季节。人群普遍易感。常经水、食物生活接触和苍蝇等而传播。临床特征为剧烈腹泻、呕吐、大量米泔样排泄物、水电解质紊乱和周围循环衰竭，严重休克者可并发急性肾功能衰竭。</p>
+                        <p>2. 伤寒  是由伤寒杆菌引起的经消化道传播的急性传染病。临床特征为长程发热、全身中毒症状、相对缓脉、肝脾肿大、玫瑰疹及白细胞减少等。主要并发症为肠出血、肠穿孔。本病以夏秋季多发，人群普遍易感。主要通过水、食物、日常接触、苍蝇和蟑螂传播。</p>
+                        <p>3. 细菌性痢疾  简称菌痢，是由痢疾杆菌引起的肠道传染病。主要表现为发热、腹痛、腹泻、里急后重和粘液脓血便。常年发病，以夏秋季多见。主要通过生活接触、食物、水和苍蝇等途径传播。、</p>
+                        <p>4. 甲型肝炎  是由通过感染甲型肝炎病毒(HAV)引起的急性肝脏炎症，主要经粪——口途径传播，发病以儿童和青少年多见。发烧、乏力、食欲减退、恶心、呕吐和皮肤发黄、有的病人有腹胀或腹泻、尿呈褐色、大便色浅、检查肝脏有肿大和触痛或叩痛的体征。</p>
+                        <p>5. 肠道病毒 常引起儿童手足口病、病毒性咽峡炎，重症患儿可出现为肺水肿、脑炎等，一年四季都可发生，常见于4～9月份。发热1～2天后开始出现皮疹，通常在手足、臀部出现，或出现口腔粘膜疱疹。有的患儿不发热，只表现为手、足、臀部皮疹或疱疹性咽峡炎，病情较轻。大多数患儿在一周以内体温下降、皮疹消退，病情恢复。</p>
+                        <h3>秋季肠道传染病的防治措施</h3>
+                        <p>要讲究环境、食品卫生和个人卫生。以饮食卫生为重点，把好“病从口入关”，做好“三管一灭”，加强自身防护：</p>
+                        <p>1. 提倡良好的个人和饮食卫生习惯。管好饮食不吃腐败变质的食物；不喝生水、不吃生冷食物；不吃苍蝇叮爬过的食物；不暴饮暴食；实行分餐制，养成餐前便后洗手的良好习惯；生食瓜果蔬菜要洗涤消毒；杜绝生吃水产品。罐头食品出现鼓起，色香味改变的情况，不可食用。不喝生水。</p>
+                        <p>2. 加强个人防护了解肠道传染病的相关知识。充足的睡眠和丰富的营养可增强体力；保持良好的心情有助于预防夏季肠道传染病。适当进食蒜、醋可预防胃肠道传染病。</p>
+                        <p>3. 感染肠道传染病应立即上医院就诊，不要胡乱用药，特别是不能自行使用抗菌素进行不规范治疗。防止耐药性的产生，某些肠道传染病抗生素的不当使用，甚至可导致生命危险。</p>
+                        <p class="time"><%=entry.time%></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20181015;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
+    document.title = template(document.querySelector('#titleText').innerHTML, care);
+
+
+
+</script>
+</body>
+</html>
