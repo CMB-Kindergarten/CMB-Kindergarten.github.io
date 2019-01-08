@@ -13,7 +13,7 @@ function window_onLoad(){
 function moveTopImg(){
     let oPrompt = document.getElementById('prompt');
     let oPicWrap = oPrompt.getElementsByClassName('img')[0];
-    let aImg = oPicWrap.getElementsByTagName('img');
+    let aImg = oPicWrap.getElementsByTagName('a');
     let aNum1 = oPrompt.getElementsByClassName('num')[0].getElementsByTagName('li');
 
     let timer = setInterval(nextPic, 2500);
