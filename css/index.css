@@ -64,7 +64,7 @@
 #activity li, #recipe li{display:flex; justify-content:space-between; padding:12px 0 0 25px; height:23px; background:url("pic/flower.gif") no-repeat 0 7px;  }
 #activity li a, #recipe li a{color:#949494; width:180px; white-space : nowrap;  overflow:hidden; text-overflow:ellipsis; line-height:14px; height:12px; display:block}
 #activity li a:hover, #recipe li a:hover{color:#269bff; }
-#activity span, #recipe span{width:70px; text-align:right; }
+#activity span, #recipe span{width:72px; text-align:right; }
 
 
 #happyTime{background:url("pic/center_bg.jpg"); padding-bottom:10px; }

@@ -1,0 +1,14 @@
+#content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding:40px 0 30px; width:900px; margin:0 auto; }
+#content .text .time{text-indent:0; margin:0 0 0 auto; width:300px; padding-top:40px; }
+#content .text .img{width:820px; margin:0 auto; display:flex; flex-wrap:wrap; justify-content:space-between; }
+#content .text .img > div{width:400px; }
+#content .text .img img{width:400px; margin:10px 0; }
+
+.now_all{text-align:center; margin-top:30px; font-size:14px; }
+.page{width:600px; margin:0 auto; font-size:14px; text-align:center; }
+.page span{cursor:pointer; color:rgb(0, 0, 238); text-decoration:underline; }
+.page .disable{color:#999; cursor:text; text-decoration:none; }
+.page input[type="text"]{width:40px; }
+
+/*
+body > img{width:840px; position:absolute; z-index:2; }*/

@@ -9,6 +9,7 @@
     <link href="css.css"  rel="stylesheet" />
     <script src="../../db/recipe.js" ></script>
     <script src="../../js/template.js" ></script>
+    <script src="../../js/pages.js" ></script>
 </head>
 <body>
 <div id="center">
@@ -30,7 +31,7 @@
             <li><a href="../introduce.html">园所介绍</a></li>
             <li><a href="../activity/main.html">缤纷活动</a></li>
             <li><a href="../home/main.html">家园互动</a></li>
-            <li><a href="./main.html">幼儿保健</a></li>
+            <li><a href="../care/main.html">幼儿保健</a></li>
             <li><a href="../admission.html">招生简章</a></li>
             <li><a href="../message.html">留言板</a></li>
         </ul>
@@ -51,12 +52,12 @@
                     </tr>
                     <% if(now !== page){for(let i = (now-1)*len; i<(now-1)*len+len; i++){%>
                     <tr>
-                        <td width="480"><a href="<%=recipe[i].url%>"><%=i+1%>.<%=recipe[i].title%></a></td>
+                        <td width="480"><a href="<%=recipe[i].url%>"><%=recipe[i].title%></a></td>
                         <td width="200"><%=recipe[i].time%></td>
                     </tr>
                     <%}}else{for(let i=(now-1)*len; i<recipe.length; i++){%>
                     <tr>
-                        <td width="480"><a href="<%=recipe[i].url%>"><%=i+1%>.<%=recipe[i].title%></a></td>
+                        <td width="480"><a href="<%=recipe[i].url%>"><%=recipe[i].title%></a></td>
                         <td width="200"><%=recipe[i].time%></td>
                     </tr>
                     <%}}%>
@@ -79,8 +80,8 @@
             <div class="text">
                 <p>哈尔滨聪明堡幼儿园</p>
                 <p>电话：18946110350</p>
-                <p>地址：哈尔滨市哈尔滨市哈尔滨市哈尔滨市</p>
-                <p>家长信箱:123456789@abc.com</p>
+                <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                <p>家长信箱:heigezi1998@163.com</p>
                 <p>技术支持：王卓然</p>
             </div>
             <img src="../../img/logo.png" />
@@ -89,84 +90,14 @@
 </div>
 
 <script>
-    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
-    window.now = 1;
-    window.len = 15;
-    window.page = Math.ceil(recipe.recipe.length/len);
-
-    const changePage = document.querySelectorAll('.page span');
-    const jump = document.querySelector('.page input[type="text"]');
-    const GO = document.querySelector('.page input[type="button"]');
-
-    render();
-    judge();
-    turnPagePrev();
-    turnPageNext();
-
-    GO.onclick = function(){
-        if(!(jump.value>0 && jump.value<=page && parseInt(jump.value)===parseFloat(jump.value))){
-            jump.value = '';
-            alert('页码范围越界或格式有误');
-            return;
-        }
-        now = parseInt(jump.value);
-        render();
-        judge();
-        jump.value = '';
-    };
-
-    function turnPagePrev(){
-        if(page === 1) return;      //若只有一页，则禁止翻页
-        changePage[0].onclick = function(){
-            now = 1;
-            render();
-            judge();
-        };
-        changePage[1].onclick = function(){
-            now--;
-            render();
-            judge();
-        };
-    }
-    function turnPageNext(){
-        if(page === 1) return;
-        changePage[2].onclick = function(){
-            now++;
-            render();
-            judge();
-        };
-        changePage[3].onclick = function(){
-            now = page;
-            render();
-            judge();
-        };
-    }
-    function render(){      //渲染数据
-        let templateText = document.querySelector('#recipeText').innerHTML;
-        let wrap = document.querySelector('#content .text');
-        wrap.innerHTML = template(templateText, recipe);
-    }
-    function judge(){       //判断是否为首页或尾页
-        if(page === 1){
-            changePage[0].className = changePage[1].className = 'disable';
-            changePage[2].className = changePage[3].className = 'disable';
-        }else if(now === 1){
-            changePage[0].className = changePage[1].className = 'disable';
-            changePage[2].className = changePage[3].className = '';
-            changePage[0].onclick = changePage[1].onclick = null;
-            turnPageNext();
-        }else if(now === page){
-            changePage[0].className = changePage[1].className = '';
-            changePage[2].className = changePage[3].className = 'disable';
-            changePage[2].onclick = changePage[3].onclick = null;
-            turnPagePrev();
-        }else{
-            changePage[0].className = changePage[1].className = '';
-            changePage[2].className = changePage[3].className = '';
-            turnPagePrev();
-            turnPageNext();
-        }
-    }
+    page({
+        now : 1,
+        len : 15,
+        dataLen : recipe.recipe.length,
+        templateTextQuery : '#recipeText',
+        renderWrapQuery : '#content .text',
+        renderData : recipe
+    });
 </script>
 </body>
 </html>

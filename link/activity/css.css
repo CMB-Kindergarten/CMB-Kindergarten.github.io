@@ -6,6 +6,7 @@
 #content .substance > div p{text-align:center; font-size:16px; padding-top:10px; white-space:nowrap;  overflow:hidden; text-overflow:ellipsis; }
 #content .substance > div a{color:#666; }
 #content .substance > div a:hover{color:#992d2c; text-decoration:underline; }
+
 .now_all{text-align:center; margin-top:30px; font-size:14px; }
 .page{width:600px; margin:0 auto; font-size:14px; text-align:center; }
 .page span{cursor:pointer; color:rgb(0, 0, 238); text-decoration:underline; }

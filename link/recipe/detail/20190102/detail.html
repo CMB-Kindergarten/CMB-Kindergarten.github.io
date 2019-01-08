@@ -13,7 +13,7 @@
     <link href="../recipeDetial.css"  rel="stylesheet" />
     <script src="../../../../db/recipe.js" ></script>
     <script src="../../../../js/template.js" ></script>
-    <script src="../../showPic.js" ></script>
+    <script src="../../../../js/showPic.js" ></script>
 </head>
 <body>
 <div id="center">
@@ -86,8 +86,8 @@
             <div class="text">
                 <p>哈尔滨聪明堡幼儿园</p>
                 <p>电话：18946110350</p>
-                <p>地址：哈尔滨市哈尔滨市哈尔滨市哈尔滨市</p>
-                <p>家长信箱:123456789@abc.com</p>
+                <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                <p>家长信箱:heigezi1998@163.com</p>
                 <p>技术支持：王卓然</p>
             </div>
             <img src="../../../../img/logo.png" />
@@ -95,14 +95,13 @@
     </div>
 </div>
 
-<img />
-<div class="filter"></div>
 <script>
     //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
     //每次用js传入当前页信息id，从数据中动态筛选
     window.id = 20190102;
     document.querySelector('#content .text').innerHTML = template(document.querySelector('#recipeText').innerHTML, recipe);
     document.title = template(document.querySelector('#titleText').innerHTML, recipe);
+    showPic('#content table img');
 </script>
 </body>
 </html>

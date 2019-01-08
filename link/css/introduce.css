@@ -1,2 +1,6 @@
 #content .head{color:red; text-align:center; font-size:30px; padding:20px 0 20px 0; }
-#content p{width:780px; margin:0 auto; color:#2776ed; font-size:18px; line-height:32px; text-indent:2em; padding-top:10px; }
+#content p{width:780px; margin:0 auto; color:#2776ed; font-size:18px; line-height:32px; text-indent:2em; padding-bottom:30px; }
+#content .entrance{width:780px; margin:0 auto; padding:20px 0 40px; }
+#content .entrance p{width:400px; float:right; padding-top:20px; }
+#content .img{width:780px; margin:0 auto; padding:20px 0 40px; height:200px; }
+#content .img img:nth-child(2){margin:0 8px; position:relative; bottom:30px; }

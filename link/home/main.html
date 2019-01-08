@@ -9,6 +9,7 @@
     <link href="css.css"  rel="stylesheet" />
     <script src="../../db/home.js" ></script>
     <script src="../../js/template.js" ></script>
+    <script src="../../js/pages.js" ></script>
 </head>
 <body>
 <div id="center">
@@ -52,13 +53,13 @@
                     <% if(now !== page){for(let i = (now-1)*len; i<(now-1)*len+len; i++){%>
                         <div>
                             <a href="<%=home[i].url%>"><img src="<%=home[i].titleImg%>" alt="<%=home[i].title%>"/></a>
-                            <p><a href="<%=home[i].url%>"><%=i+1%>.<%=home[i].title%></a></p>
+                            <p><a href="<%=home[i].url%>"><%=home[i].title%></a></p>
                         </div>
                     <%}}else{for(let i=(now-1)*len; i<home.length; i++){%>
-                    <div>
-                        <a href="<%=home[i].url%>"><img src="<%=home[i].titleImg%>" alt="<%=home[i].title%>"/></a>
-                        <p><a href="<%=home[i].url%>"><%=i+1%>.<%=home[i].title%></a></p>
-                    </div>
+                        <div>
+                            <a href="<%=home[i].url%>"><img src="<%=home[i].titleImg%>" alt="<%=home[i].title%>"/></a>
+                            <p><a href="<%=home[i].url%>"><%=home[i].title%></a></p>
+                        </div>
                     <%}}%>
                 </div>
                 <p class="now_all">第：<%=now%>/<%=page%>页</p>
@@ -82,8 +83,8 @@
             <div class="text">
                 <p>哈尔滨聪明堡幼儿园</p>
                 <p>电话：18946110350</p>
-                <p>地址：哈尔滨市哈尔滨市哈尔滨市哈尔滨市</p>
-                <p>家长信箱:123456789@abc.com</p>
+                <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                <p>家长信箱:heigezi1998@163.com</p>
                 <p>技术支持：王卓然</p>
             </div>
             <img src="../../img/logo.png" />
@@ -92,84 +93,14 @@
 </div>
 
 <script>
-    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
-    window.now = 1;
-    window.len = 6;
-    window.page = Math.ceil(home.home.length/len);
-
-    const changePage = document.querySelectorAll('.page span');
-    const jump = document.querySelector('.page input[type="text"]');
-    const GO = document.querySelector('.page input[type="button"]');
-
-    render();
-    judge();
-    turnPagePrev();
-    turnPageNext();
-
-    GO.onclick = function(){
-        if(!(jump.value>0 && jump.value<=page && parseInt(jump.value)===parseFloat(jump.value))){
-            jump.value = '';
-            alert('页码范围越界或格式有误');
-            return;
-        }
-        now = parseInt(jump.value);
-        render();
-        judge();
-        jump.value = '';
-    };
-
-    function turnPagePrev(){
-        if(page === 1) return;      //若只有一页，则禁止翻页
-        changePage[0].onclick = function(){
-            now = 1;
-            render();
-            judge();
-        };
-        changePage[1].onclick = function(){
-            now--;
-            render();
-            judge();
-        };
-    }
-    function turnPageNext(){
-        if(page === 1) return;
-        changePage[2].onclick = function(){
-            now++;
-            render();
-            judge();
-        };
-        changePage[3].onclick = function(){
-            now = page;
-            render();
-            judge();
-        };
-    }
-    function render(){      //渲染数据
-        let templateText = document.querySelector('#careText').innerHTML;
-        let wrap = document.querySelector('#content .text');
-        wrap.innerHTML = template(templateText, home);
-    }
-    function judge(){       //判断是否为首页或尾页
-        if(page === 1){
-            changePage[0].className = changePage[1].className = 'disable';
-            changePage[2].className = changePage[3].className = 'disable';
-        }else if(now === 1){
-            changePage[0].className = changePage[1].className = 'disable';
-            changePage[2].className = changePage[3].className = '';
-            changePage[0].onclick = changePage[1].onclick = null;
-            turnPageNext();
-        }else if(now === page){
-            changePage[0].className = changePage[1].className = '';
-            changePage[2].className = changePage[3].className = 'disable';
-            changePage[2].onclick = changePage[3].onclick = null;
-            turnPagePrev();
-        }else{
-            changePage[0].className = changePage[1].className = '';
-            changePage[2].className = changePage[3].className = '';
-            turnPagePrev();
-            turnPageNext();
-        }
-    }
+    page({
+        now : 1,
+        len : 6,
+        dataLen : home.home.length,
+        templateTextQuery : '#careText',
+        renderWrapQuery : '#content .text',
+        renderData : home
+    });
 </script>
 </body>
 </html>
