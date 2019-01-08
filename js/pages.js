@@ -1,6 +1,8 @@
 function page(opt){
     //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
     //now/len/data(算长度)/templateTextQuery/renderWrapQuery/renderData
+    opt.endFn = opt.endFn || [];
+
     window.now = opt.now;
     window.len = opt.len;
     window.page = Math.ceil(opt.dataLen / len);
@@ -58,6 +60,9 @@ function page(opt){
         let templateText = document.querySelector(opt.templateTextQuery).innerHTML;
         let wrap = document.querySelector(opt.renderWrapQuery);
         wrap.innerHTML = template(templateText, opt.renderData);
+        for(let i=0; i<opt.endFn.length; i++){
+            opt.endFn[i] && opt.endFn[i](opt.endFnOpt[i]);
+        }
     }
 
     function judge() {       //判断是否为首页或尾页

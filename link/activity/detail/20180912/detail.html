@@ -121,7 +121,9 @@
         dataLen : entry.imgLen,
         templateTextQuery : '#careText',
         renderWrapQuery : '#content .text',
-        renderData : activity
+        renderData : activity,
+        endFn : [showPic],
+        endFnOpt : ['#content .img img']
     });
     showPic('#content .img img');
 </script>

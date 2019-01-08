@@ -1,4 +1,4 @@
-function showPic(picQuery){
+function showPic(picQuery){console.log(1)
     const aImg = document.querySelectorAll(picQuery);
     //const filter = document.querySelector('.filter');
     const showImg = document.createElement('img');
