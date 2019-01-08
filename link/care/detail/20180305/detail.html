@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <style>
+        #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
+        #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:20px; }
+        #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
+    </style>
+</head>
+<body>
+
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../../activity/main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">幼儿保健</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+                    <div class="content">
+                        <h2><%=entry.title%></h2>
+                        <p>春季气温变暖，但气候变化反复无常，昼夜温差大。由于气温变暖，病毒、细菌活跃起来，而天气变化又大，对免疫功能较弱的幼儿来说，很容易被病毒或细菌感染而患病，孩子反复感冒、咳嗽，不仅影响健康、发育，而且会有一些严重的并发症发生，如心肌炎、风湿病等。因此，掌握春季幼儿保健知识，提高孩子们的免疫功能，做好防范很重要。</p>
+                        <p>1、为孩子创造良好的生活环境。居室定时开窗通风，保持空气新鲜，大人不要在室内吸烟，伤害孩子的呼吸道。</p>
+                        <p>2、常常带孩子到户外做适当的运动，进行力所能及的锻炼，如散步、慢跑、踢球等。孩子在幼儿园每天都有足够的户外活动时间，让幼儿得到足够的日光照射，充分呼吸新鲜空气，还为幼儿安排多样化的体育锻炼，以提高幼儿自身的抵抗力。建议幼儿家长充分利用双休日和平时饭后散步时间，进行幼儿乐于接受的亲子游戏活动，循序渐进地加大幼儿的运动量。同时还要保证幼儿有足够的睡眠时间，注意早睡早起，因为人体睡眠时生长激素分泌旺盛，这对孩子的生长具有积极的意义。</p>
+                        <p>3、避免接触传染源。不到空气混浊、本人口密集的地方，如超市、茶馆等。</p>
+                        <p>4、防过敏性疾病。如过敏性疾病史的孩子，如：哮喘。过敏性鼻炎等，春天是疾病的好发季节，应避免让孩子接触过敏源，不带孩子到花园玩耍，少吃或不吃鱼、虾等食物。</p><p>5、营养均衡，合理。按时进餐，不偏食、荤素搭配，粗细粮混吃甜咸适合。幼儿正处在长身体的关键阶段，家长一方面可以为幼儿准备多样化，色香味全的营养食谱，力求营养全面、均衡，保证幼儿获得足够的蛋白质和维生素，满足幼儿的生长需要，另一方面，家园同步，家长在家要鼓励幼儿多吃新鲜水果和青菜、粗粮等，增强幼儿的抵抗力，粗纤维还可以疏通大肠，完成消化的最后一道工序。春季气候干燥，幼儿还应多喝水，活动量加大使幼儿体内缺少水份，多饮水有利于体内有毒物质的排出，有利于体内新陈代谢，减少患病的机率。</p>
+                        <p class="time"><%=entry.time%></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20180305;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
+    document.title = template(document.querySelector('#titleText').innerHTML, care);
+
+
+
+</script>
+</body>
+</html>

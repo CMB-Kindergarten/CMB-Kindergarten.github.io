@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <style>
+        #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
+        #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:10px; }
+        #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
+        #content .text h3{color:#222; font-weight:bold; font-size:16px; padding:10px 0 20px; }
+    </style>
+</head>
+<body>
+
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../../activity/main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">幼儿保健</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+                    <div class="content">
+                        <h2><%=entry.title%></h2>
+                        <p>每个宝宝都是父母的心头肉。但一直以来，宝贝被拐骗甚至被抢走的事件却屡屡发生。今天，就让我们一起来剖析种种拐骗手段，做好防范工作，尽自己的努力保护我们的宝贝吧！请家长们一定要看看！！</p>
+                        <p>骗术一：人贩子假扮医务人员或者是孕妇，家属等溜入医院产科住院部，以检查或是探望为由，骗取刚刚生下宝宝的麻麻及亲属信任，将新生儿拐骗抱走！</p>
+                        <p>骗术二：家长带宝宝出远门，在火车站或者长途汽车站，遇到老乡或者是和蔼的大妈，聊着聊着倍感亲切于是就放松警惕，下车时大妈（人贩子）假意抱一下宝宝，等家长回过神，宝宝早就没了踪影。</p>
+                        <p>骗术三：一般购物广场空间大，场所多，人群密集，宝宝易走失或被诱骗，而家长又有购物的目的，在商品挑选时易产生疏忽，等挑选完毕，宝宝已经不见了。</p>
+                        <p>骗术四：家长带宝宝外出用餐，宝宝因为好奇满地乱跑，餐厅杂乱加上空间狭窄，视线不好，宝宝走失很难马上发现。</p>
+                        <p>骗术五：公园，游乐场，流动人员多，场地开阔，家长身心放松，视线易分散，往往会被人贩子有机可乘，人贩子还会利用同龄的宝宝，以一起玩为由，进行诱拐。</p>
+                        <p>骗术六：家长抱着宝宝在路边走，被不法贩子盯上，遭遇摩托车后座的人贩子飞车抢夺。</p>
+                        <p>骗术七：人贩子多数假意与家长攀谈，等家长放松警惕，趁机带走宝宝。或者有预谋的通过一段时间接触，骗取信任，伺机夺走宝宝。</p>
+                        <p>骗术八：请来的保姆没有留身份证复印件，某天带宝宝下楼，结果一去不回。</p>
+                        <p>骗术九：老人带宝宝在门口玩耍，遭遇人贩子抢夺，并迅速逃离现场。</p>
+                        <h3>下面为大家介绍一些对策：</h3>
+                        <p>对策一：在医院不要把宝宝交给不认识的医护人员。麻麻及陪护家属人员在休息时最好锁上房门；</p>
+                        <p>对策二：有急事时，千万不要让陌生人照看宝宝，哪怕时间很短，也不能这样做，无暇照顾宝宝时，可把宝宝交医护人员提出要带宝宝出去检查，家人一定要跟着去，千万不要把孩子随便交给穿白大褂的人！给可信任的亲朋好友。不能相信任何主动接近宝宝的陌生人，包括雇工，老乡，新认识的朋友等。</p>
+                        <p>对策三：带宝宝外出时，应由父母或者有社会经验的家人看管，而不是小保姆。带宝宝到大型商场，热闹的街道，或者大型活动场所的时候，人多拥挤的地方要特别注意，不能由毫无经验的小保姆照看宝宝，以防犯罪分子有机可乘。</p>
+                        <p>对策四：拒绝陌生人抱宝宝，要提放经常在公园，小区，医院，超市，幼儿园门口等转悠的形迹可疑的人，发现陌生人试图抱宝宝离开时不要犹豫，立马呼救，并拨打110。</p>
+                        <p>对策五：教宝宝拒绝陌生人的礼物拥抱饮料和糖果，不跟陌生人走。不要让宝宝在没有人看管的情况下跟随陌生人包括同龄小朋友玩耍，以防犯罪分子用各种手段骗取宝宝信任，伺机拐带。</p>
+                        <p>对策六：带宝宝外出时不要让宝宝离开自己的视线，特别是人多的时候！</p>
+                        <p class="time"><%=entry.time%></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20180401;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
+    document.title = template(document.querySelector('#titleText').innerHTML, care);
+
+
+
+</script>
+</body>
+</html>

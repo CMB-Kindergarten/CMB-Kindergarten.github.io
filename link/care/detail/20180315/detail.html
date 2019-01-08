@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <style>
+        #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
+        #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text h3{padding-bottom:20px; font-size:18px; }
+        #content .text h4{color:#444444; padding-bottom:10px; font-size:16px; text-indent:1em; }
+        #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:5px; }
+        #content .text .left{text-indent:0; font-weight:bold; color:#000; }
+        #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
+    </style>
+</head>
+<body>
+
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../../activity/main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">幼儿保健</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+                    <div class="content">
+                        <h2><%=entry.title%></h2>
+                        <h3>★症状体征</h3>
+                        <p>潜伏期2～7天，无明显前驱症状。1～2天内口腔、咽、软腭、颊黏膜、舌、齿龈出现疼痛性粟粒至绿豆大小水疱，周围绕以红晕，破溃成小溃疡，由于疼痛，常流涎和拒食。可伴有低烧。同时手足亦出现皮疹，在手足的背侧面和手指(趾)背侧缘、甲周围、掌跖部，出现数目不定的水疱，除手足口外，亦可见于臀部及肛门附近，偶可见于躯干及四肢，数天后干涸、消退，皮疹无瘙痒，无疼痛感。个别儿童可出现泛发性丘疹、水疱，伴发无菌性脑膜炎、脑炎、心肌炎等。一般经过良好，全病程约7～10天，多数可自愈，预后良好。</p>
+                        <h3>★预防护理</h3>
+                        <h4>1.父母应该注意：</h4>
+                        <p>(1) 饭前便后、外出后要用肥皂或洗手液等给幼儿洗手，不要让幼儿喝生水、吃生冷食物，避免接触患病婴幼儿;</p>
+                        <p>(2) 接触儿童前、处理粪便后均要洗手，并妥善处理污物;</p>
+                        <p>(3) 幼儿使用的餐具使用前后应充分清洗;</p>
+                        <p>(4)本病流行期间不宜带幼儿到人群聚集、空气流通差的公共场所，注意保持家庭环境卫生，居室要经常通风，勤晒衣被;</p>
+                        <p>(5)幼儿出现相关症状要及时到医疗机构就诊。父母要及时对患儿的衣物进行晾晒或消毒，轻症患儿不必住院，宜居家治疗、休息，以减少交叉感染。</p>
+                        <p>(6)配合幼儿园工作接送幼儿不进班级，避免携带病菌与交叉感染。</p>
+                        <h4>2.幼儿园的预防措施：</h4>
+                        <p>(1)流行季节，让幼儿进班先洗手，加强晨午检等检查工作; </p>
+                        <p>(2)加强消毒，每日对玩具、个人卫生用具、餐具等物品进行清洗消毒（加长消毒时间、消毒液浓度加倍）;</p>
+                        <p>(3)做好教室和活动场所的开窗通风及紫外线消毒工作;</p>
+                        <p>(4)防控班级停止园内一切大型活动。</p>
+                        <p class="time"><%=entry.time%></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20180315;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
+    document.title = template(document.querySelector('#titleText').innerHTML, care);
+
+
+
+</script>
+</body>
+</html>

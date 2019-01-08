@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <style>
+        #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
+        #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:20px; }
+        #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
+    </style>
+</head>
+<body>
+
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../../activity/main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">幼儿保健</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+                    <div class="content">
+                        <h2><%=entry.title%></h2>
+                        <p>1、每日1~2个水果。水果含有丰富的维生素和矿物质，而且低钠高钾，是适合现代人的好食物。不过，水果含有大量的糖分，吃太多也不好。《中国居民膳食指南》建议，成年人每天应摄入200~400克水果。按常见水果，比如苹果、梨、橘子等，普通的个头的每天吃1~2个就可以了。</p>
+                        <p>2、可放在两餐之间吃。饭前吃水果，还是饭后吃水果好？总的来说，饭前吃水果有助于在正餐时减少食量，控制体重，但如果肠胃比较虚弱的人，空腹吃水果可能会引起不适。而饭后吃水果，可能会造成能量过剩，阻碍矿物质等营养素的吸收，加重肠胃负担。因此，最保险的方法，是在餐后1小时后再吃水果。</p>
+                        <p>3、能吃水果就不要榨果汁喝。将水果制成果汁都需要滤去渣子，而这些渣子中却含有丰富的营养物质，比如膳食纤维，其对于增强饱腹感、减少胆固醇吸收等都有好处。另外，在榨汁的过程中，因为水果的细胞壁破碎，其中的维生素C和抗氧化物质也会受到一定程度的破坏。因此，果汁营养不如水果，鲜榨果汁一定要现榨现喝。</p>
+                        <p>4、不可用水果代替蔬菜。整体上讲，水果的营养价值比不上蔬菜。除了枣、猕猴桃、柑橘、草莓、山楂等少数几种，多数水果的维生素含量较低。若说起胡萝卜素来，水果与蔬菜的差别更大，除芒果、柑橘和黄杏几种外，其他水果中胡萝卜素含量极少。钙、铁等微量元素的含量，水果与绿色蔬菜根本就无法相提并论。另外，蔬菜的含糖量通常很低，热量也低，多吃不会影响热量摄入。而吃水果太多，就有糖分摄入过多的担忧。</p>
+                        <p>5、水果不分伯仲，变换种类吃即可。人们总是对什么“水果之王”、“水果皇后”感兴趣，其实，同样是水果，营养价值都各有千秋。吃水果也要各种品种、各种颜色，搭配着吃。不要迷信哪一种营养高，就只吃那一两种水果。</p>
+                        <p>6、不能单吃水果做正餐。水果虽然富含糖分、维生素、矿物质和膳食纤维等，但也缺乏脂肪、蛋白质和脂溶性维生素。单靠水果来解决一餐，是远远达不到营养膳食的标准的。</p>
+                        <p>7、单靠水果减肥不科学。吃水果不能减肥。一来如前所述，水果的营养不均衡，二来许多水果的热量并不低。单靠水果减肥，不仅很难成功，就算成功了也可能让人面色黯淡，体力下降。</p><p>8、糖尿病人在血糖平稳情况下可适量吃低糖水果。糖尿病人可以吃水果吗？答案是肯定的。前提是要保证血糖平稳，并且注意控制好水果的数量。糖尿病人可以多选择对血糖影响较小的水果，比如柚子、橙子、草莓、樱桃等。</p>
+                        <p class="time"><%=entry.time%></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20180301;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
+    document.title = template(document.querySelector('#titleText').innerHTML, care);
+
+
+
+</script>
+</body>
+</html>

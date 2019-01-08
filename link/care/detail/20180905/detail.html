@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <style>
+        #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
+        #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:20px; }
+        #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
+    </style>
+</head>
+<body>
+
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../../activity/main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">幼儿保健</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+                    <div class="content">
+                        <h2><%=entry.title%></h2>
+                        <p>很多家长有这样的疑问：为什么孩子在家里好好的，一上幼儿园就变得“体弱多病”了呢？</p>
+                        <p>究其根本的原因，一是孩子平时受到“很好”的照顾，身体的抗寒抗疲劳能力较差；二是孩子没有集体生活的经历，平时较少受到病原体的侵袭，身体的抗病原体能力较差。孩子在受寒或疲劳时，身体的抗病能力下降，这时，如果再遇到病原体侵袭，就很容易生病了。</p>
+                        <p>宝宝从母体得到的抗体，在出生6个月时基本消耗完，此时，他的抵抗力最弱，最容易患病。随着年龄的增长，宝宝自身的免疫系统逐渐发育成熟，抗体的产生能力也逐渐增加，通常，孩子在3岁以后，机体抗病能力较3岁前会有明显的提高。</p>
+                        <p>但是，抗体是有高度特异性的，只有当孩子的机体受到某一种病原体的侵袭后，才会产生针对该病原体的抗体，也就是说，对于大千世界中各种各样的病原体，孩子只有接触了它们，他的机体才会产生针对这些病原体的抗体。</p>
+                        <p>所以，即使宝宝身体发育正常，也并不意味着他的机体对各种病原体都有抗病力。如果孩子平时接触的病原体（细菌、病毒）的种类少，他的机体对那些没有接触到的病原体就缺少了特定的抗体，也就是说孩子对该病原体没有抵抗力。当宝宝从一个被精心照顾的小环境进入到集体的大环境后，他的饮食起居习惯发生了很大的改变，生理上会有不适应的感觉；宝宝接触的小朋友多了，环境复杂了，接触各种病原体的机会也就多了，患病的次数就会相应增多。但是宝宝的身体对各种接触到的病原体也会产生抗体，所以他的抗病能力也会逐渐增强。</p>
+                        <p>对孩子们来说，在集体的大环境中接触各种病原体是不可避免的，当他有了患病的迹象时，爸爸妈妈一来要积极给孩子治疗，二来要让孩子在患病时得到很好的休息，避免疾病加重。平时应该让孩子多锻炼，多活动，以提高身体的抗寒抗疲劳能力。如果孩子患病太频繁，建议父母可以带孩子去医院检查免疫功能，适当使用一些提高免疫力的药物，可以加快孩子免疫功能的发育。</p>
+                        <p>孩子必须建立自己的免疫系统，而免疫系统的建立，只有一条途径——生病，有抗原（即病原体）才有抗体，才能建立自己的抵抗力。所以在幼儿园阶段（特别是刚入园的新生），不停生病是一个大多数孩子要面对的规律。</p>
+                        <p>当然，作为保健老师，把好晨检关是我们的职责，凡是晨检中有明显传染病症状和体征的孩子，我们将严格执行隔离制度（回家治疗或在保健室观察）；但有许多疾病在潜伏期就有传染性了，但潜伏期并无任何疾病的表现，所以有时仅靠晨检也不能完全把住所有疾病的入侵。</p>
+                        <p>不过如果孩子不小心得了病，只要幼儿园和家长共同配合，提高护理病儿的质量，把发生抵抗力下降的因素解决掉，孩子经过一段时间的生病，加强运动、加强营养，体能会越来越好，抵抗力会越来越强。</p>
+                        <p class="time"><%=entry.time%></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20180905;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
+    document.title = template(document.querySelector('#titleText').innerHTML, care);
+
+
+
+</script>
+</body>
+</html>

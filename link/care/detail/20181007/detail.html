@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/care.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <style>
+        #content .text .content{padding:40px 0 30px; width:800px; margin:0 auto; }
+        #content .text h2{color:#666666; text-align:center; font-size:20px; line-height:36px; padding-bottom:30px; }
+        #content .text h3{color:#333; font-size:16px; padding-bottom:10px; }
+        #content .text p{font-size:16px; line-height:26px; color:#6a6a6a; text-indent:2em; padding-bottom:20px; }
+        #content .text .time{text-indent:0; margin:0 0 0 auto; width:150px; padding-top:40px; }
+    </style>
+</head>
+<body>
+
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../../activity/main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">幼儿保健</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%const entry = care.filter(function(item){ return item.id === window.id; })[0]%>
+                    <div class="content">
+                        <h2><%=entry.title%></h2>
+                        <p>为了提高孩子免疫功能，增强机体的耐寒力，减少冬季易发疾病，从初秋就应开始加强耐寒锻炼。</p>
+                        <p>据运动医学专家们研究认为，秋凉之时加强合理的耐寒锻炼对人体的健康至少有下列益处：其一　耐寒锻炼有助改善大脑皮层对体温调节的功能，一旦人受到冷刺激，大脑能更快、更准确地调节身体的产热和散热过程，以保持体温的平衡；其二　通过耐寒锻炼后，人体的骨骼肌产热量增加，新陈代谢过程加快，同时还可改善呼吸系统功能，促使呼吸道对冷空气刺激的适应，提高呼吸道和肺部的耐寒能力。其三　耐寒锻炼有助于增加血液循环，提高血管弹性。使全身血管得到锻炼，医学上将这种现象称为“血管体操”。</p>
+                        <p>耐寒锻炼的方式、方法很多，家长可以从以下两方面入手。</p>
+                        <p>1.让孩子有暴露于冷环境的机会。包括不要穿得过于厚实、严密。中医认为，小儿是阳气偏旺之体，过暖则会助长阳气。实际上，过早过度保暖，身体出汗不易觉察，反而容易感冒。另外，不要错过每天户外活动的机会，让孩子每天准时上幼儿园，参加户外晨间体育锻炼。</p>
+                        <p>2.增强皮肤的调节功能。长期的恒温环境只能使人的热适应能力下降。气温稍有改变而添衣保暖或开空调，就是在制造这种恒温环境。这样，没有得到锻炼的大脑皮层下丘脑，一旦与冷接触就抵挡不住致病细菌的挑战，容易导致疾病。</p>
+                        <p>孩子进行“耐寒锻炼”时需要遵循以下的原则</p>
+                        <h3>原则一　从小做起，根据年龄不同而不同</h3>
+                        <p>1－3岁的孩子　在冬天也应坚持户外活动，但时间一般控制在5分钟以内，可以分多次出去。</p>
+                        <p>3－6岁的孩子　应该鼓励他们冬天在室外游戏玩耍，活动时可以减少一点衣服，等活动完再穿上。</p>
+                        <p>6岁以上的孩子　最好每天能保持2－3小时的户外活动，对他们的健康有利而无害。</p>
+                        <h3>原则二　循序渐进，切忌一步登天</h3>
+                        <p>对孩子进行“耐寒锻炼”，要谨记适度原则，循序渐进，不要急于求成。很多父母就是由于“心切”而让孩子进了医院。应根据孩子身体的实际情况逐渐减少衣服，户外活动的时间也应由少到多。不要和别人比较，也不可全盘照抄别人的经验。</p>
+                        <h3>原则三　抓住小细节进行锻炼</h3>
+                        <p>“耐寒锻炼”应该抓住细节，随时随地进行。比如，从秋天开始逐渐用冷水给孩子洗手、洗脸，刺激他们的神经，让他们习惯。冬天下雪的时候，还可以带他们在雪地上玩雪、学习溜冰。在寒风中，适当地露出头颈和手脚，接受寒冷的刺激，慢慢地他们就会变得不怕冷、不容易生病，提高了抵抗力和适应能力。</p>
+                        <p class="time"><%=entry.time%></p>
+                    </div>
+                </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    //把变量挂载到顶级window下，确保模板引擎和主页js都能获取
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20181007;
+    document.querySelector('#content .text').innerHTML = template(document.querySelector('#careText').innerHTML, care);
+    document.title = template(document.querySelector('#titleText').innerHTML, care);
+
+
+
+</script>
+</body>
+</html>
