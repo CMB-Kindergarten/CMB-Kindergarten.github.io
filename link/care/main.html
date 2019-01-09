@@ -59,12 +59,12 @@
                         </tr>
                         <% if(now !== page){for(let i = (now-1)*len; i<(now-1)*len+len; i++){%>
                         <tr>
-                            <td width="480"><a href="<%=care[i].url%>"><%=care[i].title%></a></td>
+                            <td width="480"><a href="<%=care[i].url%>" target="_blank"><%=care[i].title%></a></td>
                             <td width="200"><%=care[i].time%></td>
                         </tr>
                         <%}}else{for(let i=(now-1)*len; i<care.length; i++){%>
                         <tr>
-                            <td width="480"><a href="<%=care[i].url%>"><%=care[i].title%></a></td>
+                            <td width="480"><a href="<%=care[i].url%>" target="_blank"><%=care[i].title%></a></td>
                             <td width="200"><%=care[i].time%></td>
                         </tr>
                         <%}}%>

@@ -52,12 +52,12 @@
                 <div class="substance">
                     <% if(now !== page){for(let i = (now-1)*len; i<(now-1)*len+len; i++){%>
                         <div>
-                            <a href="<%=home[i].url%>"><img src="<%=home[i].titleImg%>" alt="<%=home[i].title%>"/></a>
+                            <a href="<%=home[i].url%>" target="_blank"><img src="<%=home[i].titleImg%>" alt="<%=home[i].title%>"/></a>
                             <p><a href="<%=home[i].url%>"><%=home[i].title%></a></p>
                         </div>
                     <%}}else{for(let i=(now-1)*len; i<home.length; i++){%>
                         <div>
-                            <a href="<%=home[i].url%>"><img src="<%=home[i].titleImg%>" alt="<%=home[i].title%>"/></a>
+                            <a href="<%=home[i].url%>" target="_blank"><img src="<%=home[i].titleImg%>" alt="<%=home[i].title%>"/></a>
                             <p><a href="<%=home[i].url%>"><%=home[i].title%></a></p>
                         </div>
                     <%}}%>

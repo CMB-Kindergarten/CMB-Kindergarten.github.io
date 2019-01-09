@@ -52,14 +52,14 @@
                 <div class="substance">
                     <% if(now !== page){for(let i = (now-1)*len; i<(now-1)*len+len; i++){%>
                         <div>
-                            <a href="<%=activity[i].url%>"><div class="ingWrap"><img src="<%=activity[i].titleImg%>" alt="<%=activity[i].title%>"/></div></a>
-                            <p><a href="<%=activity[i].url%>"><%=activity[i].title%></a></p>
+                            <a href="<%=activity[i].url%>" target="_blank"><div class="ingWrap"><img src="<%=activity[i].titleImg%>" alt="<%=activity[i].title%>"/></div></a>
+                            <p><a href="<%=activity[i].url%> target="_blank""><%=activity[i].title%></a></p>
                             <p class="time"><%=activity[i].time%></p>
                         </div>
                     <%}}else{for(let i=(now-1)*len; i<activity.length; i++){%>
                     <div>
-                        <a href="<%=activity[i].url%>"><div class="ingWrap"><img src="<%=activity[i].titleImg%>" alt="<%=activity[i].title%>"/></div></a>
-                        <p><a href="<%=activity[i].url%>"><%=activity[i].title%></a></p>
+                        <a href="<%=activity[i].url%>" target="_blank"><div class="ingWrap"><img src="<%=activity[i].titleImg%>" alt="<%=activity[i].title%>"/></div></a>
+                        <p><a href="<%=activity[i].url%> target="_blank""><%=activity[i].title%></a></p>
                         <p class="time"><%=activity[i].time%></p>
                     </div>
                     <%}}%>

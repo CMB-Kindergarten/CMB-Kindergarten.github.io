@@ -6,7 +6,7 @@ const activity = {            //reverse倒序处理，最新的放最下边;
             "titleImg" : "detail/20180301/titleImg.jpg",
             "time" : "2018-03-01",
             "url" : "detail/20180301/detail.html",
-            "imgLen" : 6,
+            "imgLen" : 14,
             "contentText" : [
                 "这是第一段",
                 "这是第二段",

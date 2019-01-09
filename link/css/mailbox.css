@@ -1,0 +1,5 @@
+#content .wrap{height:500px; padding-left:200px; line-height:50px; padding-top:50px; }
+#content .wrap input{height:24px; width:200px; }
+#content .wrap textarea{width:400px; height:100px; }
+#content .wrap span{padding-left:80px; color:red; font-weight:bold; font-size:14px; }
+#content .wrap a{width:102px; height:30px; display:block; background:url("mailbox_submit.jpg") no-repeat; margin:20px 0 0 80px; }

@@ -41,7 +41,7 @@
 #prompt .hint .text:hover{animation-play-state:paused; }
 @keyframes moveTopText {
     0%{top:75px; }
-    to{top:-450px; }
+    to{top:-380px; }
 }
 #prompt .hint p{text-indent:2em; }
 #prompt .class{padding-top:54px; }

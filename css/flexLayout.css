@@ -1,4 +1,5 @@
-#body_top{background:url("pic/body_bg_top.jpg") center top no-repeat; }
+body{background:none; }
+#body_top{background:url("pic/body_bg_top.jpg") center top no-repeat; padding-bottom:10px; }
 #body_middle{background:#effae9 url("pic/body_bg_middle.jpg") center top no-repeat; background-size:1424px 100%; }
 #body_bottom{background:url("pic/body_bg_bottom.jpg") center top no-repeat; }
 .content_center{width:1000px; margin:0 auto; }

@@ -10,4 +10,4 @@
 #content .right textarea{height:98px; width:280px; padding:0; resize:none; border:1px solid #cccccc; }
 #content .right textarea:focus{background:#f0ffd0; }
 #content .submit{padding-top:520px; text-align:center; }
-#content .form span{height:29px; width:91px; background:url("message_submit.jpg") no-repeat; display:inline-block; }
+#content .submit a{height:29px; width:91px; background:url("message_submit.jpg") no-repeat; display:inline-block; }

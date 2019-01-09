@@ -52,12 +52,12 @@
                     </tr>
                     <% if(now !== page){for(let i = (now-1)*len; i<(now-1)*len+len; i++){%>
                     <tr>
-                        <td width="480"><a href="<%=recipe[i].url%>"><%=recipe[i].title%></a></td>
+                        <td width="480"><a href="<%=recipe[i].url%>" target="_blank"><%=recipe[i].title%></a></td>
                         <td width="200"><%=recipe[i].time%></td>
                     </tr>
                     <%}}else{for(let i=(now-1)*len; i<recipe.length; i++){%>
                     <tr>
-                        <td width="480"><a href="<%=recipe[i].url%>"><%=recipe[i].title%></a></td>
+                        <td width="480"><a href="<%=recipe[i].url%>" target="_blank"><%=recipe[i].title%></a></td>
                         <td width="200"><%=recipe[i].time%></td>
                     </tr>
                     <%}}%>

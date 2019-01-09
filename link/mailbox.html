@@ -2,14 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>留言板-聪明堡幼儿园</title>
+    <title>幼儿保健-聪明堡幼儿园</title>
     <link rel="shortcut icon" type="image/x-icon" href="../logo.ico" />
     <link href="../css/public.css"  rel="stylesheet" />
     <link href="css/linkPublic.css"  rel="stylesheet" />
-    <link href="css/message.css"  rel="stylesheet" />
+    <link href="css/linkFlexLayout.css"  rel="stylesheet" />
+    <link href="../css/flexLayout.css"  rel="stylesheet" />
+    <link href="css/mailbox.css"  rel="stylesheet" />
 </head>
 <body>
-    <div id="center">
+<div id="body_top">
+    <div class="content_center">
         <div id="top">
             <div class="banner">
                 <div class="logo clear">
@@ -33,44 +36,32 @@
                 <li><a href="message.html">留言板</a></li>
             </ul>
         </div>
+    </div>
+</div>
 
 
-
-
+<div id="body_middle">
+    <div class="content_center">
         <div id="content">
             <div>
                 <div class="title">
-                    <h2 class="content">留言板<span class="position">当前位置：<a href="./../index.html">首页</a>→<a href="message.html">留言板</a></span></h2>
+                    <h2 class="content">园长信箱<span class="position">当前位置：<a href="./../index.html">首页</a>→<a href="mailbox.html">园长信箱</a></span></h2>
                 </div>
-
-                <div class="form">
-                    <form class="clear">
-                        <div class="left">
-                            <p>留言主题：</p>
-                            <p>留言内容：</p>
-                            <p>留言人：</p>
-                            <p>QQ：</p>
-                            <p>电子邮箱：</p>
-                            <p>联系电话：</p>
-                        </div>
-                        <div class="right">
-                            <p><input type="text" /></p>
-                            <p><textarea></textarea></p>
-                            <p><input type="text" /></p>
-                            <p><input type="text" /></p>
-                            <p><input type="text" /></p>
-                            <p><input type="text" /></p>
-                        </div>
-                        <p class="submit"><a href="#" onclick="alert('发表成功')"></a></p>
-                    </form>
+                <div class="wrap">
+                    您的姓名：<input type="text" name="name"><br />
+                    电话号码：<input type="text" name="name"><br />
+                    留言标题：<input type="text" name="name"><br />
+                    留言内容：<textarea></textarea><br />
+                    <span>* 留言内容中可以加上您的email，便于幼儿园反馈，谢谢！</span>
+                    <a href="#" onclick="alert('发送成功！')"></a>
                 </div>
-
             </div>
         </div>
+    </div>
+</div>
 
-
-
-
+<div id="body_bottom">
+    <div class="content_center">
         <div id="footer">
             <div class="content clear">
                 <div class="text">
@@ -84,5 +75,7 @@
             </div>
         </div>
     </div>
+</div>
+
 </body>
 </html>
