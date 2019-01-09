@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script id="titleText" type="text/html">
+        <%window.entry = activity.filter(function(item){ return item.id === window.id; })[0];%>
+        <%=entry.title%>-聪明堡幼儿园
+    </script>
+    <link rel="shortcut icon" type="image/x-icon" href="../../../../logo.ico" />
+    <link href="../../../../css/public.css"  rel="stylesheet" />
+    <link href="../../../../css/flexLayout.css"  rel="stylesheet" />
+    <link href="../detail.css"  rel="stylesheet" />
+    <link href="../../../css/linkPublic.css"  rel="stylesheet" />
+    <link href="../../../css/linkFlexLayout.css"  rel="stylesheet" />
+    <script src="../../../../db/activity.js" ></script>
+    <script src="../../../../js/template.js" ></script>
+    <script src="../../../../js/pages.js" ></script>
+    <script src="../../../../js/showPic.js" ></script>
+</head>
+<body>
+<div id="body_top">
+    <div class="content_center">
+        <div id="top">
+            <div class="banner">
+                <div class="logo clear">
+                    <div class="img">
+                        <a href="./../../../../index.html">
+                            <img src="../../../../img/logo.png" alt="聪明堡幼儿园">
+                        </a>
+                    </div>
+                    <h1 class="text">
+                        <a href="./../../../../index.html"><span>聪明堡</span><span>幼</span><span>儿</span><span>园</span></a>
+                    </h1>
+                </div>
+            </div>
+            <ul class="nav">
+                <li><a href="./../../../../index.html">网站首页</a></li>
+                <li><a href="../../../introduce.html">园所介绍</a></li>
+                <li><a href="../../main.html">缤纷活动</a></li>
+                <li><a href="../../../home/main.html">家园互动</a></li>
+                <li><a href="../../../care/main.html">幼儿保健</a></li>
+                <li><a href="../../../admission.html">招生简章</a></li>
+                <li><a href="../../../message.html">留言板</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div id="body_middle">
+    <div class="content_center">
+        <div id="content">
+            <div>
+                <div class="title">
+                    <h2 class="content">缤纷活动</h2>
+                </div>
+                <div class="text"></div>
+                <script id="careText" type="text/html">
+                    <%
+                    entry.imgList = [];
+                    for(let i=0; i<entry.imgLen; i++){ entry.imgList.push(`img/${i+1}.jpg`) } %>
+                    <h2><%=entry.title%></h2>
+                    <div class="img">
+                        <div>
+                            <% if(now !== page){for(let i = (now-1)*len; i<(now-1)*len+len; i+=2){%>
+                            <img src="<%=entry.imgList[i]%>" />
+                            <%}}else{for(let i=(now-1)*len; i<entry.imgLen; i+=2){%>
+                            <img src="<%=entry.imgList[i]%>" />
+                            <%}}%>
+                        </div>
+                        <div>
+                            <% if(now !== page){for(let i = (now-1)*len+1; i<(now-1)*len+len; i+=2){%>
+                            <img src="<%=entry.imgList[i]%>" />
+                            <%}}else{for(let i=(now-1)*len+1; i<entry.imgLen; i+=2){%>
+                            <img src="<%=entry.imgList[i]%>" />
+                            <%}}%>
+                        </div>
+                    </div>
+                    <p class="time"><%=entry.time%></p>
+                    <p class="now_all">第：<%=now%>/<%=page%>页</p>
+                </script>
+
+                <p class="page">
+                    <span>首页</span>
+                    <span>上一页</span>
+                    <span>下一页</span>
+                    <span>尾页</span>&nbsp;&nbsp;
+                    转到：<input type="text"/>&nbsp;
+                    <input type="button" value="GO"/>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="body_bottom">
+    <div class="content_center">
+        <div id="footer">
+            <div class="content clear">
+                <div class="text">
+                    <p>哈尔滨聪明堡幼儿园</p>
+                    <p>电话：18946110350</p>
+                    <p>地址：哈尔滨市道里区故新路295号（天合俊景小区）</p>
+                    <p>家长信箱:heigezi1998@163.com</p>
+                    <p>技术支持：王卓然</p>
+                </div>
+                <img src="../../../../img/logo.png" />
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    //每次用js传入当前页信息id，从数据中动态筛选
+    window.id = 20181228;
+    document.title = template(document.querySelector('#titleText').innerHTML, activity);
+    page({
+        now : 1,
+        len : 6,
+        dataLen : entry.imgLen,
+        templateTextQuery : '#careText',
+        renderWrapQuery : '#content .text',
+        renderData : activity,
+        endFn : [showPic],
+        endFnOpt : ['#content .img img']
+    });
+    showPic('#content .img img');
+</script>
+</body>
+</html>
